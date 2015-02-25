@@ -239,6 +239,7 @@
                         <task-precondition>true</task-precondition>
                         <task-effetsdebord>void</task-effetsdebord>
                         <task-iteration>[1]</task-iteration>
+                        <task-descriptioniteration>A faire tant qu'on a des modifs</task-descriptioniteration>
                         <point classkmad="tache.Point" idkmad="K109">
                             <point-x>885</point-x>
                             <point-y>697</point-y>
