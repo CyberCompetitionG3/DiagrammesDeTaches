@@ -66,7 +66,7 @@
                 <actor-experience>UNK</actor-experience>
             </actor>
             <task classkmad="tache.Tache" id-task-actors-list="K212 " id-task-point="K69" id-task-subtasks-list="K82 K85 " idkmad="K70">
-                <task-name>AccederCyberCompetitionDepuisSalleDeControle</task-name>
+                <task-name>UtiliserControleCamerasDepuisSalleDeControle</task-name>
                 <task-numero>1.1</task-numero>
                 <task-observation>CR007:50,53,57</task-observation>
                 <task-executant>ABS</task-executant>
@@ -104,7 +104,7 @@
                         <actor-experience>UNK</actor-experience>
                     </actor>
                 </task>
-                <task classkmad="tache.Tache" id-task-actors-list="K214 " id-task-point="K84" id-task-subtasks-list="K93 K95 " idkmad="K85">
+                <task classkmad="tache.Tache" id-task-actors-list="K214 " id-task-point="K84" id-task-subtasks-list="K180 K146 K148 " idkmad="K85">
                     <task-name>UtiliserServeurDeControle</task-name>
                     <task-numero>1.1.2</task-numero>
                     <task-observation>CR007:52-54</task-observation>
@@ -112,7 +112,7 @@
                     <task-modality>COGN</task-modality>
                     <task-optional>false</task-optional>
                     <task-interruptible>false</task-interruptible>
-                    <task-decomposition>SEQ</task-decomposition>
+                    <task-decomposition>ALT</task-decomposition>
                     <task-precondition>true</task-precondition>
                     <task-effetsdebord>void</task-effetsdebord>
                     <task-iteration>[1]</task-iteration>
@@ -123,208 +123,10 @@
                     <actor classkmad="tache.Acteur" id-user="K65" idkmad="K214">
                         <actor-experience>UNK</actor-experience>
                     </actor>
-                    <task classkmad="tache.Tache" id-task-actors-list="K230 " id-task-point="K92" id-task-subtasks-list="K184 K186 " idkmad="K93">
-                        <task-name>LancerCyberCompetition</task-name>
+                    <task classkmad="tache.Tache" id-task-actors-list="K228 " id-task-point="K179" idkmad="K180">
+                        <task-name>VerifierCalendrier</task-name>
                         <task-numero>1.1.2.1</task-numero>
                         <task-observation/>
-                        <task-executant>ABS</task-executant>
-                        <task-modality>COGN</task-modality>
-                        <task-optional>false</task-optional>
-                        <task-interruptible>false</task-interruptible>
-                        <task-decomposition>SEQ</task-decomposition>
-                        <task-precondition>true</task-precondition>
-                        <task-effetsdebord>void</task-effetsdebord>
-                        <task-iteration>[1]</task-iteration>
-                        <point classkmad="tache.Point" idkmad="K92">
-                            <point-x>73</point-x>
-                            <point-y>692</point-y>
-                        </point>
-                        <actor classkmad="tache.Acteur" id-user="K65" idkmad="K230">
-                            <actor-experience>UNK</actor-experience>
-                        </actor>
-                        <task classkmad="tache.Tache" id-task-actors-list="K229 " id-task-point="K183" idkmad="K184">
-                            <task-name>SeLogguerACyberCompetition</task-name>
-                            <task-numero>1.1.2.1.1</task-numero>
-                            <task-observation/>
-                            <task-executant>INT</task-executant>
-                            <task-modality>COGN</task-modality>
-                            <task-optional>false</task-optional>
-                            <task-interruptible>false</task-interruptible>
-                            <task-decomposition>LEAF</task-decomposition>
-                            <task-precondition>true</task-precondition>
-                            <task-effetsdebord>void</task-effetsdebord>
-                            <task-iteration>[1]</task-iteration>
-                            <point classkmad="tache.Point" idkmad="K183">
-                                <point-x>0</point-x>
-                                <point-y>842</point-y>
-                            </point>
-                            <actor classkmad="tache.Acteur" id-user="K65" idkmad="K229">
-                                <actor-experience>UNK</actor-experience>
-                            </actor>
-                        </task>
-                        <task classkmad="tache.Tache" id-task-point="K185" idkmad="K186">
-                            <task-name>OuvrirCyberCompetition</task-name>
-                            <task-numero>1.1.2.1.2</task-numero>
-                            <task-observation/>
-                            <task-executant>SYS</task-executant>
-                            <task-modality>COGN</task-modality>
-                            <task-optional>false</task-optional>
-                            <task-interruptible>false</task-interruptible>
-                            <task-decomposition>LEAF</task-decomposition>
-                            <task-precondition>true</task-precondition>
-                            <task-effetsdebord>void</task-effetsdebord>
-                            <task-iteration>[1]</task-iteration>
-                            <point classkmad="tache.Point" idkmad="K185">
-                                <point-x>168</point-x>
-                                <point-y>970</point-y>
-                            </point>
-                        </task>
-                    </task>
-                    <task classkmad="tache.Tache" id-task-actors-list="K225 " id-task-point="K94" id-task-subtasks-list="K180 K146 K148 " idkmad="K95">
-                        <task-name>UtiliserControleCameras</task-name>
-                        <task-numero>1.1.2.2</task-numero>
-                        <task-observation/>
-                        <task-executant>INT</task-executant>
-                        <task-modality>COGN</task-modality>
-                        <task-optional>false</task-optional>
-                        <task-interruptible>false</task-interruptible>
-                        <task-decomposition>ALT</task-decomposition>
-                        <task-precondition>true</task-precondition>
-                        <task-effetsdebord>void</task-effetsdebord>
-                        <task-iteration>[1]</task-iteration>
-                        <point classkmad="tache.Point" idkmad="K94">
-                            <point-x>349</point-x>
-                            <point-y>647</point-y>
-                        </point>
-                        <actor classkmad="tache.Acteur" id-user="K65" idkmad="K225">
-                            <actor-experience>UNK</actor-experience>
-                        </actor>
-                        <task classkmad="tache.Tache" id-task-actors-list="K228 " id-task-point="K179" idkmad="K180">
-                            <task-name>VerifierCalendrier</task-name>
-                            <task-numero>1.1.2.2.1</task-numero>
-                            <task-observation/>
-                            <task-executant>INT</task-executant>
-                            <task-modality>COGN</task-modality>
-                            <task-optional>true</task-optional>
-                            <task-interruptible>false</task-interruptible>
-                            <task-decomposition>LEAF</task-decomposition>
-                            <task-precondition>true</task-precondition>
-                            <task-effetsdebord>void</task-effetsdebord>
-                            <task-iteration>[1]</task-iteration>
-                            <point classkmad="tache.Point" idkmad="K179">
-                                <point-x>318</point-x>
-                                <point-y>842</point-y>
-                            </point>
-                            <actor classkmad="tache.Acteur" id-user="K65" idkmad="K228">
-                                <actor-experience>UNK</actor-experience>
-                            </actor>
-                        </task>
-                        <task classkmad="tache.Tache" id-task-actors-list="K227 " id-task-point="K145" idkmad="K146">
-                            <task-name>VisualiserCameras</task-name>
-                            <task-numero>1.1.2.2.2</task-numero>
-                            <task-observation/>
-                            <task-executant>INT</task-executant>
-                            <task-modality>COGN</task-modality>
-                            <task-optional>false</task-optional>
-                            <task-interruptible>false</task-interruptible>
-                            <task-decomposition>LEAF</task-decomposition>
-                            <task-precondition>true</task-precondition>
-                            <task-effetsdebord>void</task-effetsdebord>
-                            <task-iteration>[1]</task-iteration>
-                            <point classkmad="tache.Point" idkmad="K145">
-                                <point-x>417</point-x>
-                                <point-y>970</point-y>
-                            </point>
-                            <actor classkmad="tache.Acteur" id-user="K65" idkmad="K227">
-                                <actor-experience>UNK</actor-experience>
-                            </actor>
-                        </task>
-                        <task classkmad="tache.Tache" id-task-actors-list="K226 " id-task-point="K147" idkmad="K148">
-                            <task-name>ReorienterCameras</task-name>
-                            <task-numero>1.1.2.2.3</task-numero>
-                            <task-observation/>
-                            <task-executant>INT</task-executant>
-                            <task-modality>COGN</task-modality>
-                            <task-optional>false</task-optional>
-                            <task-interruptible>false</task-interruptible>
-                            <task-decomposition>LEAF</task-decomposition>
-                            <task-precondition>true</task-precondition>
-                            <task-effetsdebord>void</task-effetsdebord>
-                            <task-iteration>[1]</task-iteration>
-                            <task-descriptioniteration>tant que la camera n'est pas dirigee vers ce qu'on veut voir</task-descriptioniteration>
-                            <point classkmad="tache.Point" idkmad="K147">
-                                <point-x>520</point-x>
-                                <point-y>842</point-y>
-                            </point>
-                            <actor classkmad="tache.Acteur" id-user="K65" idkmad="K226">
-                                <actor-experience>UNK</actor-experience>
-                            </actor>
-                        </task>
-                    </task>
-                </task>
-            </task>
-            <task classkmad="tache.Tache" id-task-actors-list="K80 " id-task-point="K75" id-task-subtasks-list="K110 K112 " idkmad="K76">
-                <task-name>AccederCyberCompetitionDepuisMN100</task-name>
-                <task-numero>1.2</task-numero>
-                <task-observation>CR007:50,55-57</task-observation>
-                <task-executant>INT</task-executant>
-                <task-modality>COGN</task-modality>
-                <task-optional>false</task-optional>
-                <task-interruptible>false</task-interruptible>
-                <task-decomposition>SEQ</task-decomposition>
-                <task-precondition>true</task-precondition>
-                <task-effetsdebord>void</task-effetsdebord>
-                <task-iteration>[1]</task-iteration>
-                <point classkmad="tache.Point" idkmad="K75">
-                    <point-x>491</point-x>
-                    <point-y>346</point-y>
-                </point>
-                <actor classkmad="tache.Acteur" id-user="K65" idkmad="K80">
-                    <actor-experience>UNK</actor-experience>
-                </actor>
-                <task classkmad="tache.Tache" id-task-actors-list="K215 " id-task-point="K109" idkmad="K110">
-                    <task-name>LancerCyberCompetition</task-name>
-                    <task-numero>1.2.1</task-numero>
-                    <task-observation/>
-                    <task-executant>INT</task-executant>
-                    <task-modality>COGN</task-modality>
-                    <task-optional>false</task-optional>
-                    <task-interruptible>false</task-interruptible>
-                    <task-decomposition>LEAF</task-decomposition>
-                    <task-precondition>true</task-precondition>
-                    <task-effetsdebord>void</task-effetsdebord>
-                    <task-iteration>[1]</task-iteration>
-                    <point classkmad="tache.Point" idkmad="K109">
-                        <point-x>472</point-x>
-                        <point-y>491</point-y>
-                    </point>
-                    <actor classkmad="tache.Acteur" id-user="K65" idkmad="K215">
-                        <actor-experience>UNK</actor-experience>
-                    </actor>
-                </task>
-                <task classkmad="tache.Tache" id-task-actors-list="K216 " id-task-point="K111" id-task-subtasks-list="K157 K150 K152 " idkmad="K112">
-                    <task-name>UtiliserControleCameras</task-name>
-                    <task-numero>1.2.2</task-numero>
-                    <task-observation/>
-                    <task-executant>INT</task-executant>
-                    <task-modality>COGN</task-modality>
-                    <task-optional>false</task-optional>
-                    <task-interruptible>false</task-interruptible>
-                    <task-decomposition>ALT</task-decomposition>
-                    <task-precondition>true</task-precondition>
-                    <task-effetsdebord>void</task-effetsdebord>
-                    <task-iteration>[1]</task-iteration>
-                    <point classkmad="tache.Point" idkmad="K111">
-                        <point-x>705</point-x>
-                        <point-y>491</point-y>
-                    </point>
-                    <actor classkmad="tache.Acteur" id-user="K65" idkmad="K216">
-                        <actor-experience>UNK</actor-experience>
-                    </actor>
-                    <task classkmad="tache.Tache" id-task-actors-list="K224 " id-task-point="K156" idkmad="K157">
-                        <task-name>VerifierCalendrier</task-name>
-                        <task-numero>1.2.2.1</task-numero>
-                        <task-observation>CR003:11-14</task-observation>
                         <task-executant>INT</task-executant>
                         <task-modality>COGN</task-modality>
                         <task-optional>true</task-optional>
@@ -333,17 +135,17 @@
                         <task-precondition>true</task-precondition>
                         <task-effetsdebord>void</task-effetsdebord>
                         <task-iteration>[1]</task-iteration>
-                        <point classkmad="tache.Point" idkmad="K156">
-                            <point-x>635</point-x>
-                            <point-y>692</point-y>
+                        <point classkmad="tache.Point" idkmad="K179">
+                            <point-x>124</point-x>
+                            <point-y>702</point-y>
                         </point>
-                        <actor classkmad="tache.Acteur" id-user="K65" idkmad="K224">
+                        <actor classkmad="tache.Acteur" id-user="K65" idkmad="K228">
                             <actor-experience>UNK</actor-experience>
                         </actor>
                     </task>
-                    <task classkmad="tache.Tache" id-task-actors-list="K223 " id-task-point="K149" idkmad="K150">
+                    <task classkmad="tache.Tache" id-task-actors-list="K227 " id-task-point="K145" idkmad="K146">
                         <task-name>VisualiserCameras</task-name>
-                        <task-numero>1.2.2.2</task-numero>
+                        <task-numero>1.1.2.2</task-numero>
                         <task-observation/>
                         <task-executant>INT</task-executant>
                         <task-modality>COGN</task-modality>
@@ -353,17 +155,17 @@
                         <task-precondition>true</task-precondition>
                         <task-effetsdebord>void</task-effetsdebord>
                         <task-iteration>[1]</task-iteration>
-                        <point classkmad="tache.Point" idkmad="K149">
-                            <point-x>821</point-x>
-                            <point-y>692</point-y>
+                        <point classkmad="tache.Point" idkmad="K145">
+                            <point-x>313</point-x>
+                            <point-y>702</point-y>
                         </point>
-                        <actor classkmad="tache.Acteur" id-user="K65" idkmad="K223">
+                        <actor classkmad="tache.Acteur" id-user="K65" idkmad="K227">
                             <actor-experience>UNK</actor-experience>
                         </actor>
                     </task>
-                    <task classkmad="tache.Tache" id-task-actors-list="K222 " id-task-point="K151" idkmad="K152">
+                    <task classkmad="tache.Tache" id-task-actors-list="K226 " id-task-point="K147" idkmad="K148">
                         <task-name>ReorienterCameras</task-name>
-                        <task-numero>1.2.2.3</task-numero>
+                        <task-numero>1.1.2.3</task-numero>
                         <task-observation/>
                         <task-executant>INT</task-executant>
                         <task-modality>COGN</task-modality>
@@ -374,14 +176,95 @@
                         <task-effetsdebord>void</task-effetsdebord>
                         <task-iteration>[1]</task-iteration>
                         <task-descriptioniteration>tant que la camera n'est pas dirigee vers ce qu'on veut voir</task-descriptioniteration>
-                        <point classkmad="tache.Point" idkmad="K151">
-                            <point-x>929</point-x>
-                            <point-y>842</point-y>
+                        <point classkmad="tache.Point" idkmad="K147">
+                            <point-x>506</point-x>
+                            <point-y>702</point-y>
                         </point>
-                        <actor classkmad="tache.Acteur" id-user="K65" idkmad="K222">
+                        <actor classkmad="tache.Acteur" id-user="K65" idkmad="K226">
                             <actor-experience>UNK</actor-experience>
                         </actor>
                     </task>
+                </task>
+            </task>
+            <task classkmad="tache.Tache" id-task-actors-list="K80 " id-task-point="K75" id-task-subtasks-list="K157 K150 K152 " idkmad="K76">
+                <task-name>UtiliserControleCamerasDepuisMN100</task-name>
+                <task-numero>1.2</task-numero>
+                <task-observation>CR007:50,55-57</task-observation>
+                <task-executant>INT</task-executant>
+                <task-modality>COGN</task-modality>
+                <task-optional>false</task-optional>
+                <task-interruptible>false</task-interruptible>
+                <task-decomposition>ALT</task-decomposition>
+                <task-precondition>true</task-precondition>
+                <task-effetsdebord>void</task-effetsdebord>
+                <task-iteration>[1]</task-iteration>
+                <point classkmad="tache.Point" idkmad="K75">
+                    <point-x>491</point-x>
+                    <point-y>346</point-y>
+                </point>
+                <actor classkmad="tache.Acteur" id-user="K65" idkmad="K80">
+                    <actor-experience>UNK</actor-experience>
+                </actor>
+                <task classkmad="tache.Tache" id-task-actors-list="K224 " id-task-point="K156" idkmad="K157">
+                    <task-name>VerifierCalendrier</task-name>
+                    <task-numero>1.2.1</task-numero>
+                    <task-observation>CR003:11-14</task-observation>
+                    <task-executant>INT</task-executant>
+                    <task-modality>COGN</task-modality>
+                    <task-optional>true</task-optional>
+                    <task-interruptible>false</task-interruptible>
+                    <task-decomposition>LEAF</task-decomposition>
+                    <task-precondition>true</task-precondition>
+                    <task-effetsdebord>void</task-effetsdebord>
+                    <task-iteration>[1]</task-iteration>
+                    <point classkmad="tache.Point" idkmad="K156">
+                        <point-x>532</point-x>
+                        <point-y>491</point-y>
+                    </point>
+                    <actor classkmad="tache.Acteur" id-user="K65" idkmad="K224">
+                        <actor-experience>UNK</actor-experience>
+                    </actor>
+                </task>
+                <task classkmad="tache.Tache" id-task-actors-list="K223 " id-task-point="K149" idkmad="K150">
+                    <task-name>VisualiserCameras</task-name>
+                    <task-numero>1.2.2</task-numero>
+                    <task-observation/>
+                    <task-executant>INT</task-executant>
+                    <task-modality>COGN</task-modality>
+                    <task-optional>false</task-optional>
+                    <task-interruptible>false</task-interruptible>
+                    <task-decomposition>LEAF</task-decomposition>
+                    <task-precondition>true</task-precondition>
+                    <task-effetsdebord>void</task-effetsdebord>
+                    <task-iteration>[1]</task-iteration>
+                    <point classkmad="tache.Point" idkmad="K149">
+                        <point-x>731</point-x>
+                        <point-y>528</point-y>
+                    </point>
+                    <actor classkmad="tache.Acteur" id-user="K65" idkmad="K223">
+                        <actor-experience>UNK</actor-experience>
+                    </actor>
+                </task>
+                <task classkmad="tache.Tache" id-task-actors-list="K222 " id-task-point="K151" idkmad="K152">
+                    <task-name>ReorienterCameras</task-name>
+                    <task-numero>1.2.3</task-numero>
+                    <task-observation/>
+                    <task-executant>INT</task-executant>
+                    <task-modality>COGN</task-modality>
+                    <task-optional>false</task-optional>
+                    <task-interruptible>false</task-interruptible>
+                    <task-decomposition>LEAF</task-decomposition>
+                    <task-precondition>true</task-precondition>
+                    <task-effetsdebord>void</task-effetsdebord>
+                    <task-iteration>[1]</task-iteration>
+                    <task-descriptioniteration>tant que la camera n'est pas dirigee vers ce qu'on veut voir</task-descriptioniteration>
+                    <point classkmad="tache.Point" idkmad="K151">
+                        <point-x>937</point-x>
+                        <point-y>491</point-y>
+                    </point>
+                    <actor classkmad="tache.Acteur" id-user="K65" idkmad="K222">
+                        <actor-experience>UNK</actor-experience>
+                    </actor>
                 </task>
             </task>
         </task>
