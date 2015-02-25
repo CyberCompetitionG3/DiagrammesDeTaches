@@ -14,7 +14,7 @@
         <task-precondition>true</task-precondition>
         <task-effetsdebord>void</task-effetsdebord>
         <task-iteration>[1]</task-iteration>
-        <task-descriptioniteration>@</task-descriptioniteration>
+        <task-descriptioniteration>Tant qu'on a pas créé toutes les disciplines</task-descriptioniteration>
         <point classkmad="tache.Point" idkmad="K6">
             <point-x>609</point-x>
             <point-y>11</point-y>
@@ -63,7 +63,7 @@
                 <task-observation/>
                 <task-executant>INT</task-executant>
                 <task-modality>COGN</task-modality>
-                <task-optional>false</task-optional>
+                <task-optional>true</task-optional>
                 <task-interruptible>false</task-interruptible>
                 <task-decomposition>ALT</task-decomposition>
                 <task-precondition>true</task-precondition>
@@ -81,7 +81,7 @@
                     <task-observation/>
                     <task-executant>INT</task-executant>
                     <task-modality>COGN</task-modality>
-                    <task-optional>false</task-optional>
+                    <task-optional>true</task-optional>
                     <task-interruptible>false</task-interruptible>
                     <task-decomposition>LEAF</task-decomposition>
                     <task-precondition>true</task-precondition>
@@ -98,7 +98,7 @@
                     <task-observation/>
                     <task-executant>INT</task-executant>
                     <task-modality>COGN</task-modality>
-                    <task-optional>false</task-optional>
+                    <task-optional>true</task-optional>
                     <task-interruptible>false</task-interruptible>
                     <task-decomposition>LEAF</task-decomposition>
                     <task-precondition>true</task-precondition>
@@ -115,7 +115,7 @@
                     <task-observation/>
                     <task-executant>INT</task-executant>
                     <task-modality>COGN</task-modality>
-                    <task-optional>false</task-optional>
+                    <task-optional>true</task-optional>
                     <task-interruptible>false</task-interruptible>
                     <task-decomposition>LEAF</task-decomposition>
                     <task-precondition>true</task-precondition>
@@ -133,19 +133,20 @@
                 <task-observation/>
                 <task-executant>INT</task-executant>
                 <task-modality>COGN</task-modality>
-                <task-optional>false</task-optional>
+                <task-optional>true</task-optional>
                 <task-interruptible>false</task-interruptible>
                 <task-decomposition>SEQ</task-decomposition>
                 <task-precondition>true</task-precondition>
                 <task-effetsdebord>void</task-effetsdebord>
                 <task-iteration>[1]</task-iteration>
-                <task-descriptioniteration>tant qu'il reste une epreuve à ajouter</task-descriptioniteration>
+                <task-descriptioniteration>Tant que l'on veut rajouter un type d'épreuve (masculine, feminine, mixte)
+/!\ On exclu le dernier type choisi dans le genre pour ne pas répéter deux fois le même /!\</task-descriptioniteration>
                 <point classkmad="tache.Point" idkmad="K15">
                     <point-x>1013</point-x>
                     <point-y>375</point-y>
                 </point>
                 <task classkmad="tache.Tache" id-task-point="K79" idkmad="K80">
-                    <task-name>CreerNombreMin</task-name>
+                    <task-name>SaisirNombreMinCompetiteur</task-name>
                     <task-numero>2.2.1</task-numero>
                     <task-observation/>
                     <task-executant>INT</task-executant>
@@ -157,12 +158,12 @@
                     <task-effetsdebord>void</task-effetsdebord>
                     <task-iteration>[1]</task-iteration>
                     <point classkmad="tache.Point" idkmad="K79">
-                        <point-x>903</point-x>
-                        <point-y>524</point-y>
+                        <point-x>790</point-x>
+                        <point-y>545</point-y>
                     </point>
                 </task>
                 <task classkmad="tache.Tache" id-task-point="K77" idkmad="K78">
-                    <task-name>CreerNombreMax</task-name>
+                    <task-name>SaisirNombreMaxCompetiteur</task-name>
                     <task-numero>2.2.2</task-numero>
                     <task-observation/>
                     <task-executant>INT</task-executant>
@@ -174,8 +175,8 @@
                     <task-effetsdebord>void</task-effetsdebord>
                     <task-iteration>[1]</task-iteration>
                     <point classkmad="tache.Point" idkmad="K77">
-                        <point-x>1145</point-x>
-                        <point-y>544</point-y>
+                        <point-x>1084</point-x>
+                        <point-y>545</point-y>
                     </point>
                 </task>
                 <task classkmad="tache.Tache" id-task-point="K147" id-task-subtasks-list="K85 K88 K91 " idkmad="K148">
@@ -200,7 +201,7 @@
                         <task-observation/>
                         <task-executant>INT</task-executant>
                         <task-modality>COGN</task-modality>
-                        <task-optional>false</task-optional>
+                        <task-optional>true</task-optional>
                         <task-interruptible>false</task-interruptible>
                         <task-decomposition>LEAF</task-decomposition>
                         <task-precondition>true</task-precondition>
@@ -217,7 +218,7 @@
                         <task-observation/>
                         <task-executant>INT</task-executant>
                         <task-modality>COGN</task-modality>
-                        <task-optional>false</task-optional>
+                        <task-optional>true</task-optional>
                         <task-interruptible>false</task-interruptible>
                         <task-decomposition>LEAF</task-decomposition>
                         <task-precondition>true</task-precondition>
@@ -234,7 +235,7 @@
                         <task-observation/>
                         <task-executant>INT</task-executant>
                         <task-modality>COGN</task-modality>
-                        <task-optional>false</task-optional>
+                        <task-optional>true</task-optional>
                         <task-interruptible>false</task-interruptible>
                         <task-decomposition>LEAF</task-decomposition>
                         <task-precondition>true</task-precondition>
