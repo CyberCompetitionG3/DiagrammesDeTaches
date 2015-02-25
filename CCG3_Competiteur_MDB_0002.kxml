@@ -9,7 +9,7 @@
         </projectinformation>
     </project>
     <task classkmad="tache.Tache" id-task-actors-list="K115 " id-task-point="K3" id-task-subtasks-list="K7 K22 " idkmad="K4">
-        <task-name>GererSesDonneesPersonnelles</task-name>
+        <task-name>GererDonneesPersonnelles</task-name>
         <task-numero>Racine   </task-numero>
         <task-observation/>
         <task-executant>ABS</task-executant>
@@ -28,7 +28,7 @@
             <actor-experience>UNK</actor-experience>
         </actor>
         <task classkmad="tache.Tache" id-task-point="K6" idkmad="K7">
-            <task-name>SeConnecterASonCompte</task-name>
+            <task-name>SeConnecterCompte</task-name>
             <task-numero>1</task-numero>
             <task-observation/>
             <task-executant>INT</task-executant>
@@ -46,7 +46,7 @@
             </point>
         </task>
         <task classkmad="tache.Tache" id-task-point="K21" id-task-subtasks-list="K19 K25 K37 " idkmad="K22">
-            <task-name>ChoisirUneActivite</task-name>
+            <task-name>ChoisirActivite</task-name>
             <task-numero>2</task-numero>
             <task-observation/>
             <task-executant>ABS</task-executant>
@@ -63,7 +63,7 @@
                 <point-y>145</point-y>
             </point>
             <task classkmad="tache.Tache" id-task-point="K18" idkmad="K19">
-                <task-name>ConsulterLesInfosPersonnelles</task-name>
+                <task-name>ConsulterInfosPersonnelles</task-name>
                 <task-numero>2.1</task-numero>
                 <task-observation>Visualiser les informations personnelles.</task-observation>
                 <task-executant>INT</task-executant>
@@ -80,7 +80,7 @@
                 </point>
             </task>
             <task classkmad="tache.Tache" id-task-point="K24" id-task-subtasks-list="K96 K40 K28 " idkmad="K25">
-                <task-name>FormulerUneOuPlusieuresDoléance(s)</task-name>
+                <task-name>FormulerDoléance(s)</task-name>
                 <task-numero>2.2</task-numero>
                 <task-observation/>
                 <task-executant>ABS</task-executant>
@@ -92,11 +92,11 @@
                 <task-effetsdebord>void</task-effetsdebord>
                 <task-iteration>[1]</task-iteration>
                 <point classkmad="tache.Point" idkmad="K24">
-                    <point-x>757</point-x>
-                    <point-y>357</point-y>
+                    <point-x>766</point-x>
+                    <point-y>358</point-y>
                 </point>
                 <task classkmad="tache.Tache" id-task-point="K95" idkmad="K96">
-                    <task-name>SignalerUnProblemeAuNiveauDeLaChambre</task-name>
+                    <task-name>SignalerProblemeChambre</task-name>
                     <task-numero>2.2.1</task-numero>
                     <task-observation/>
                     <task-executant>INT</task-executant>
@@ -114,7 +114,7 @@
                     </point>
                 </task>
                 <task classkmad="tache.Tache" id-task-point="K39" idkmad="K40">
-                    <task-name>DemanderModificationLesInfosPersonnelles</task-name>
+                    <task-name>DemanderModificationInfosPersonnelles</task-name>
                     <task-numero>2.2.2</task-numero>
                     <task-observation/>
                     <task-executant>INT</task-executant>
@@ -131,7 +131,7 @@
                     </point>
                 </task>
                 <task classkmad="tache.Tache" id-task-point="K27" idkmad="K28">
-                    <task-name>DemanderUnChangementDeChambre</task-name>
+                    <task-name>DemanderChangementChambre</task-name>
                     <task-numero>2.2.3</task-numero>
                     <task-observation/>
                     <task-executant>INT</task-executant>
@@ -149,7 +149,7 @@
                 </task>
             </task>
             <task classkmad="tache.Tache" id-task-point="K36" id-task-subtasks-list="K99 K102 " idkmad="K37">
-                <task-name>SignalerUnProblemeDeBadge</task-name>
+                <task-name>SignalerProblemeBadge</task-name>
                 <task-numero>2.3</task-numero>
                 <task-observation/>
                 <task-executant>INT</task-executant>
@@ -165,7 +165,7 @@
                     <point-y>358</point-y>
                 </point>
                 <task classkmad="tache.Tache" id-task-point="K98" idkmad="K99">
-                    <task-name>DeclarerPerteDuBadge</task-name>
+                    <task-name>DeclarerPerteBadge</task-name>
                     <task-numero>2.3.1</task-numero>
                     <task-observation/>
                     <task-executant>INT</task-executant>
@@ -182,7 +182,7 @@
                     </point>
                 </task>
                 <task classkmad="tache.Tache" id-task-point="K101" idkmad="K102">
-                    <task-name>DeclarerDefaillanceDuBadge</task-name>
+                    <task-name>DeclarerDefaillanceBadge</task-name>
                     <task-numero>2.3.2</task-numero>
                     <task-observation/>
                     <task-executant>INT</task-executant>
