@@ -47,7 +47,7 @@
             <actor-experience>UNK</actor-experience>
         </actor>
         <task classkmad="tache.Tache" id-task-actors-list="K211 " id-task-point="K181" id-task-subtasks-list="K70 K76 " idkmad="K182">
-            <task-name>ControlerCameras</task-name>
+            <task-name>ControlerCamerasExterne</task-name>
             <task-numero>1</task-numero>
             <task-observation/>
             <task-executant>ABS</task-executant>
@@ -66,7 +66,7 @@
                 <actor-experience>UNK</actor-experience>
             </actor>
             <task classkmad="tache.Tache" id-task-actors-list="K212 " id-task-point="K69" id-task-subtasks-list="K82 K85 " idkmad="K70">
-                <task-name>UtiliserControleCamerasDepuisSalleDeControle</task-name>
+                <task-name>UtiliserControleCamerasExternesDepuisSalleDeControle</task-name>
                 <task-numero>1.1</task-numero>
                 <task-observation>CR007:50,53,57</task-observation>
                 <task-executant>ABS</task-executant>
@@ -184,7 +184,7 @@
                 </task>
             </task>
             <task classkmad="tache.Tache" id-task-actors-list="K80 " id-task-point="K75" id-task-subtasks-list="K157 K252 " idkmad="K76">
-                <task-name>UtiliserControleCamerasDepuisMN100</task-name>
+                <task-name>UtiliserControleCamerasExternesDepuisMN100</task-name>
                 <task-numero>1.2</task-numero>
                 <task-observation>CR007:50,55-57</task-observation>
                 <task-executant>INT</task-executant>
@@ -223,7 +223,7 @@
                     </actor>
                 </task>
                 <task classkmad="tache.Tache" id-task-point="K251" id-task-subtasks-list="K250 K150 " idkmad="K252">
-                    <task-name>VisualiserCameras</task-name>
+                    <task-name>VisualiserCamerasExternes</task-name>
                     <task-numero>1.2.2</task-numero>
                     <task-observation/>
                     <task-executant>INT</task-executant>
