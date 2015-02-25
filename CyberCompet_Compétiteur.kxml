@@ -8,7 +8,7 @@
             <projectinformation-date>04/02/2015</projectinformation-date>
         </projectinformation>
     </project>
-    <task classkmad="tache.Tache" id-task-point="K3" id-task-subtasks-list="K7 K22 " idkmad="K4">
+    <task classkmad="tache.Tache" id-task-actors-list="K115 " id-task-point="K3" id-task-subtasks-list="K7 K22 " idkmad="K4">
         <task-name>GererSesDonneesPersonnelles</task-name>
         <task-numero>Racine   </task-numero>
         <task-observation/>
@@ -24,6 +24,9 @@
             <point-x>575</point-x>
             <point-y>23</point-y>
         </point>
+        <actor classkmad="tache.Acteur" id-user="K114" idkmad="K115">
+            <actor-experience>UNK</actor-experience>
+        </actor>
         <task classkmad="tache.Tache" id-task-point="K6" idkmad="K7">
             <task-name>SeConnecterASonCompte</task-name>
             <task-numero>1</task-numero>
@@ -77,7 +80,7 @@
                 </point>
             </task>
             <task classkmad="tache.Tache" id-task-point="K39" idkmad="K40">
-                <task-name>CompléterOuModifierLesInfosPersonnelles</task-name>
+                <task-name>CompleterOuModifierLesInfosPersonnelles</task-name>
                 <task-numero>2.2</task-numero>
                 <task-observation/>
                 <task-executant>INT</task-executant>
@@ -197,4 +200,16 @@
             </task>
         </task>
     </task>
+    <Individu classkmad="tache.Individu" idkmad="K114">
+        <individu-name>HelenaSong</individu-name>
+        <individu-statut>Competiteur</individu-statut>
+        <individu-role>InteragirAvecLaSessionPersonnelleCyberCompetis</individu-role>
+        <individu-imagepath>/home/d/dhobbm/Bureau/PROJET/sans-titre.11.png</individu-imagepath>
+    </Individu>
+    <Individu classkmad="tache.Individu" idkmad="K116">
+        <individu-name>Victor Kwame</individu-name>
+        <individu-statut>Competiteur</individu-statut>
+        <individu-role>InteragirAvecLaSessionPersonnelleCyberCompetis</individu-role>
+        <individu-imagepath>/home/d/dhobbm/Bureau/PROJET/4250972199.450.JPG</individu-imagepath>
+    </Individu>
 </kmad-model>
