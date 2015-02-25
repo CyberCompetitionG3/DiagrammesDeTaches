@@ -506,7 +506,7 @@
                 <point-y>186</point-y>
             </point>
             <task classkmad="tache.Tache" id-task-point="K36" idkmad="K37">
-                <task-name>EtreAutoriseARentrer</task-name>
+                <task-name>EtreAutoriseAEntrer</task-name>
                 <task-numero>4.1</task-numero>
                 <task-observation/>
                 <task-executant>SYS</task-executant>
@@ -540,7 +540,7 @@
                 </point>
             </task>
             <task classkmad="tache.Tache" id-task-point="K184" idkmad="K185">
-                <task-name>PasAutoriseARentrer</task-name>
+                <task-name>PasAutoriseAEntrer</task-name>
                 <task-numero>4.3</task-numero>
                 <task-observation>CR006:29,30</task-observation>
                 <task-executant>SYS</task-executant>
@@ -552,7 +552,7 @@
                 <task-effetsdebord>void</task-effetsdebord>
                 <task-iteration>[1]</task-iteration>
                 <point classkmad="tache.Point" idkmad="K184">
-                    <point-x>1984</point-x>
+                    <point-x>1941</point-x>
                     <point-y>375</point-y>
                 </point>
             </task>
