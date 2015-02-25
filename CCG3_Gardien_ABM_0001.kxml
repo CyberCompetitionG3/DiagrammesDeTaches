@@ -59,7 +59,7 @@
             <task-effetsdebord>void</task-effetsdebord>
             <task-iteration>[1]</task-iteration>
             <point classkmad="tache.Point" idkmad="K181">
-                <point-x>381</point-x>
+                <point-x>352</point-x>
                 <point-y>174</point-y>
             </point>
             <actor classkmad="tache.Acteur" id-user="K65" idkmad="K211">
@@ -78,7 +78,7 @@
                 <task-effetsdebord>void</task-effetsdebord>
                 <task-iteration>[1]</task-iteration>
                 <point classkmad="tache.Point" idkmad="K69">
-                    <point-x>22</point-x>
+                    <point-x>0</point-x>
                     <point-y>346</point-y>
                 </point>
                 <actor classkmad="tache.Acteur" id-user="K65" idkmad="K212">
@@ -97,7 +97,7 @@
                     <task-effetsdebord>void</task-effetsdebord>
                     <task-iteration>[1]</task-iteration>
                     <point classkmad="tache.Point" idkmad="K81">
-                        <point-x>9</point-x>
+                        <point-x>15</point-x>
                         <point-y>491</point-y>
                     </point>
                     <actor classkmad="tache.Acteur" id-user="K65" idkmad="K213">
@@ -136,14 +136,14 @@
                         <task-effetsdebord>void</task-effetsdebord>
                         <task-iteration>[1]</task-iteration>
                         <point classkmad="tache.Point" idkmad="K179">
-                            <point-x>124</point-x>
+                            <point-x>41</point-x>
                             <point-y>702</point-y>
                         </point>
                         <actor classkmad="tache.Acteur" id-user="K65" idkmad="K228">
                             <actor-experience>UNK</actor-experience>
                         </actor>
                     </task>
-                    <task classkmad="tache.Tache" id-task-actors-list="K227 " id-task-point="K145" idkmad="K146">
+                    <task classkmad="tache.Tache" id-task-point="K145" idkmad="K146">
                         <task-name>VisualiserCameras</task-name>
                         <task-numero>1.1.2.2</task-numero>
                         <task-observation/>
@@ -156,12 +156,9 @@
                         <task-effetsdebord>void</task-effetsdebord>
                         <task-iteration>[1]</task-iteration>
                         <point classkmad="tache.Point" idkmad="K145">
-                            <point-x>313</point-x>
+                            <point-x>196</point-x>
                             <point-y>702</point-y>
                         </point>
-                        <actor classkmad="tache.Acteur" id-user="K65" idkmad="K227">
-                            <actor-experience>UNK</actor-experience>
-                        </actor>
                     </task>
                     <task classkmad="tache.Tache" id-task-actors-list="K226 " id-task-point="K147" idkmad="K148">
                         <task-name>ReorienterCameras</task-name>
@@ -177,7 +174,7 @@
                         <task-iteration>[1]</task-iteration>
                         <task-descriptioniteration>tant que la camera n'est pas dirigee vers ce qu'on veut voir</task-descriptioniteration>
                         <point classkmad="tache.Point" idkmad="K147">
-                            <point-x>506</point-x>
+                            <point-x>364</point-x>
                             <point-y>702</point-y>
                         </point>
                         <actor classkmad="tache.Acteur" id-user="K65" idkmad="K226">
@@ -186,7 +183,7 @@
                     </task>
                 </task>
             </task>
-            <task classkmad="tache.Tache" id-task-actors-list="K80 " id-task-point="K75" id-task-subtasks-list="K157 K150 K152 " idkmad="K76">
+            <task classkmad="tache.Tache" id-task-actors-list="K80 " id-task-point="K75" id-task-subtasks-list="K157 K252 " idkmad="K76">
                 <task-name>UtiliserControleCamerasDepuisMN100</task-name>
                 <task-numero>1.2</task-numero>
                 <task-observation>CR007:50,55-57</task-observation>
@@ -199,7 +196,7 @@
                 <task-effetsdebord>void</task-effetsdebord>
                 <task-iteration>[1]</task-iteration>
                 <point classkmad="tache.Point" idkmad="K75">
-                    <point-x>491</point-x>
+                    <point-x>483</point-x>
                     <point-y>346</point-y>
                 </point>
                 <actor classkmad="tache.Acteur" id-user="K65" idkmad="K80">
@@ -218,14 +215,14 @@
                     <task-effetsdebord>void</task-effetsdebord>
                     <task-iteration>[1]</task-iteration>
                     <point classkmad="tache.Point" idkmad="K156">
-                        <point-x>532</point-x>
+                        <point-x>482</point-x>
                         <point-y>491</point-y>
                     </point>
                     <actor classkmad="tache.Acteur" id-user="K65" idkmad="K224">
                         <actor-experience>UNK</actor-experience>
                     </actor>
                 </task>
-                <task classkmad="tache.Tache" id-task-actors-list="K223 " id-task-point="K149" idkmad="K150">
+                <task classkmad="tache.Tache" id-task-point="K251" id-task-subtasks-list="K250 K150 " idkmad="K252">
                     <task-name>VisualiserCameras</task-name>
                     <task-numero>1.2.2</task-numero>
                     <task-observation/>
@@ -233,38 +230,127 @@
                     <task-modality>COGN</task-modality>
                     <task-optional>false</task-optional>
                     <task-interruptible>false</task-interruptible>
-                    <task-decomposition>LEAF</task-decomposition>
+                    <task-decomposition>ALT</task-decomposition>
                     <task-precondition>true</task-precondition>
                     <task-effetsdebord>void</task-effetsdebord>
                     <task-iteration>[1]</task-iteration>
-                    <point classkmad="tache.Point" idkmad="K149">
-                        <point-x>731</point-x>
-                        <point-y>528</point-y>
-                    </point>
-                    <actor classkmad="tache.Acteur" id-user="K65" idkmad="K223">
-                        <actor-experience>UNK</actor-experience>
-                    </actor>
-                </task>
-                <task classkmad="tache.Tache" id-task-actors-list="K222 " id-task-point="K151" idkmad="K152">
-                    <task-name>ReorienterCameras</task-name>
-                    <task-numero>1.2.3</task-numero>
-                    <task-observation/>
-                    <task-executant>INT</task-executant>
-                    <task-modality>COGN</task-modality>
-                    <task-optional>false</task-optional>
-                    <task-interruptible>false</task-interruptible>
-                    <task-decomposition>LEAF</task-decomposition>
-                    <task-precondition>true</task-precondition>
-                    <task-effetsdebord>void</task-effetsdebord>
-                    <task-iteration>[1]</task-iteration>
-                    <task-descriptioniteration>tant que la camera n'est pas dirigee vers ce qu'on veut voir</task-descriptioniteration>
-                    <point classkmad="tache.Point" idkmad="K151">
-                        <point-x>937</point-x>
+                    <point classkmad="tache.Point" idkmad="K251">
+                        <point-x>690</point-x>
                         <point-y>491</point-y>
                     </point>
-                    <actor classkmad="tache.Acteur" id-user="K65" idkmad="K222">
-                        <actor-experience>UNK</actor-experience>
-                    </actor>
+                    <task classkmad="tache.Tache" id-task-point="K249" id-task-subtasks-list="K254 K152 " idkmad="K250">
+                        <task-name>ChoisirCameraSurMosaiqueDesCameras</task-name>
+                        <task-numero>1.2.2.1</task-numero>
+                        <task-observation/>
+                        <task-executant>INT</task-executant>
+                        <task-modality>COGN</task-modality>
+                        <task-optional>false</task-optional>
+                        <task-interruptible>false</task-interruptible>
+                        <task-decomposition>ALT</task-decomposition>
+                        <task-precondition>true</task-precondition>
+                        <task-effetsdebord>void</task-effetsdebord>
+                        <task-iteration>[1]</task-iteration>
+                        <point classkmad="tache.Point" idkmad="K249">
+                            <point-x>488</point-x>
+                            <point-y>647</point-y>
+                        </point>
+                        <task classkmad="tache.Tache" id-task-point="K253" idkmad="K254">
+                            <task-name>VisualiserCameraDepuisMosaiqueDesCameras</task-name>
+                            <task-numero>1.2.2.1.1</task-numero>
+                            <task-observation/>
+                            <task-executant>INT</task-executant>
+                            <task-modality>COGN</task-modality>
+                            <task-optional>false</task-optional>
+                            <task-interruptible>false</task-interruptible>
+                            <task-decomposition>LEAF</task-decomposition>
+                            <task-precondition>true</task-precondition>
+                            <task-effetsdebord>void</task-effetsdebord>
+                            <task-iteration>[1]</task-iteration>
+                            <point classkmad="tache.Point" idkmad="K253">
+                                <point-x>337</point-x>
+                                <point-y>872</point-y>
+                            </point>
+                        </task>
+                        <task classkmad="tache.Tache" id-task-actors-list="K222 " id-task-point="K151" idkmad="K152">
+                            <task-name>ReorienterCamera</task-name>
+                            <task-numero>1.2.2.1.2</task-numero>
+                            <task-observation/>
+                            <task-executant>INT</task-executant>
+                            <task-modality>COGN</task-modality>
+                            <task-optional>false</task-optional>
+                            <task-interruptible>false</task-interruptible>
+                            <task-decomposition>LEAF</task-decomposition>
+                            <task-precondition>true</task-precondition>
+                            <task-effetsdebord>void</task-effetsdebord>
+                            <task-iteration>[1]</task-iteration>
+                            <task-descriptioniteration>tant que la camera n'est pas dirigee vers ce qu'on veut voir</task-descriptioniteration>
+                            <point classkmad="tache.Point" idkmad="K151">
+                                <point-x>634</point-x>
+                                <point-y>796</point-y>
+                            </point>
+                            <actor classkmad="tache.Acteur" id-user="K65" idkmad="K222">
+                                <actor-experience>UNK</actor-experience>
+                            </actor>
+                        </task>
+                    </task>
+                    <task classkmad="tache.Tache" id-task-actors-list="K223 " id-task-point="K149" id-task-subtasks-list="K256 K258 " idkmad="K150">
+                        <task-name>ChoisirCameraSurCarteDesCameras</task-name>
+                        <task-numero>1.2.2.2</task-numero>
+                        <task-observation/>
+                        <task-executant>INT</task-executant>
+                        <task-modality>COGN</task-modality>
+                        <task-optional>false</task-optional>
+                        <task-interruptible>false</task-interruptible>
+                        <task-decomposition>ALT</task-decomposition>
+                        <task-precondition>true</task-precondition>
+                        <task-effetsdebord>void</task-effetsdebord>
+                        <task-iteration>[1]</task-iteration>
+                        <point classkmad="tache.Point" idkmad="K149">
+                            <point-x>830</point-x>
+                            <point-y>647</point-y>
+                        </point>
+                        <actor classkmad="tache.Acteur" id-user="K65" idkmad="K223">
+                            <actor-experience>UNK</actor-experience>
+                        </actor>
+                        <task classkmad="tache.Tache" id-task-point="K255" idkmad="K256">
+                            <task-name>VisualiserCameraDepuisCarteDesCameras</task-name>
+                            <task-numero>1.2.2.2.1</task-numero>
+                            <task-observation/>
+                            <task-executant>INT</task-executant>
+                            <task-modality>COGN</task-modality>
+                            <task-optional>false</task-optional>
+                            <task-interruptible>false</task-interruptible>
+                            <task-decomposition>LEAF</task-decomposition>
+                            <task-precondition>true</task-precondition>
+                            <task-effetsdebord>void</task-effetsdebord>
+                            <task-iteration>[1]</task-iteration>
+                            <point classkmad="tache.Point" idkmad="K255">
+                                <point-x>760</point-x>
+                                <point-y>848</point-y>
+                            </point>
+                        </task>
+                        <task classkmad="tache.Tache" id-task-actors-list="K222 " id-task-point="K257" idkmad="K258">
+                            <task-name>ReorienterCamera</task-name>
+                            <task-numero>1.2.2.2.2</task-numero>
+                            <task-observation/>
+                            <task-executant>INT</task-executant>
+                            <task-modality>COGN</task-modality>
+                            <task-optional>false</task-optional>
+                            <task-interruptible>false</task-interruptible>
+                            <task-decomposition>LEAF</task-decomposition>
+                            <task-precondition>true</task-precondition>
+                            <task-effetsdebord>void</task-effetsdebord>
+                            <task-iteration>[1]</task-iteration>
+                            <task-descriptioniteration>tant que la camera n'est pas dirigee vers ce qu'on veut voir</task-descriptioniteration>
+                            <point classkmad="tache.Point" idkmad="K257">
+                                <point-x>1057</point-x>
+                                <point-y>796</point-y>
+                            </point>
+                            <actor classkmad="tache.Acteur" id-user="K65" idkmad="K222">
+                                <actor-experience>UNK</actor-experience>
+                            </actor>
+                        </task>
+                    </task>
                 </task>
             </task>
         </task>
@@ -337,7 +423,7 @@
                     <task-effetsdebord>void</task-effetsdebord>
                     <task-iteration>[1]</task-iteration>
                     <point classkmad="tache.Point" idkmad="K103">
-                        <point-x>1090</point-x>
+                        <point-x>1164</point-x>
                         <point-y>647</point-y>
                     </point>
                     <actor classkmad="tache.Acteur" id-user="K65" idkmad="K221">
@@ -357,7 +443,7 @@
                     <task-effetsdebord>void</task-effetsdebord>
                     <task-iteration>[1]</task-iteration>
                     <point classkmad="tache.Point" idkmad="K126">
-                        <point-x>1423</point-x>
+                        <point-x>1477</point-x>
                         <point-y>647</point-y>
                     </point>
                     <actor classkmad="tache.Acteur" id-user="K65" idkmad="K220">
