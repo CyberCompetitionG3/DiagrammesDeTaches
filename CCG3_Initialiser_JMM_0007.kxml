@@ -10,10 +10,11 @@
         <task-modality>COGN</task-modality>
         <task-optional>false</task-optional>
         <task-interruptible>false</task-interruptible>
-        <task-decomposition>PAR</task-decomposition>
+        <task-decomposition>SEQ</task-decomposition>
         <task-precondition>true</task-precondition>
         <task-effetsdebord>void</task-effetsdebord>
         <task-iteration>[1]</task-iteration>
+        <task-descriptioniteration>tant qu'il reste des disciplines à ajouter</task-descriptioniteration>
         <point classkmad="tache.Point" idkmad="K3">
             <point-x>619</point-x>
             <point-y>46</point-y>
@@ -33,7 +34,6 @@
             <task-precondition>true</task-precondition>
             <task-effetsdebord>void</task-effetsdebord>
             <task-iteration>[1]</task-iteration>
-            <task-descriptioniteration>tant qu'il reste des disciplines à ajouter</task-descriptioniteration>
             <point classkmad="tache.Point" idkmad="K6">
                 <point-x>472</point-x>
                 <point-y>234</point-y>
@@ -60,6 +60,5 @@
     </task>
     <Individu classkmad="tache.Individu" idkmad="K26">
         <individu-name>Administrateur</individu-name>
-        <individu-role>Créér des disciplines et épreuves</individu-role>
     </Individu>
 </kmad-model>
