@@ -249,6 +249,7 @@
         </task>
     </task>
     <Individu classkmad="tache.Individu" idkmad="K113">
-        <individu-name>Administrateur</individu-name>
+        <individu-name>Gilles Bates</individu-name>
+        <individu-statut>Administrateur</individu-statut>
     </Individu>
 </kmad-model>
