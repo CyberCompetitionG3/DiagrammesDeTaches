@@ -2,7 +2,7 @@
 <!DOCTYPE kmad-model SYSTEM "file:KMADModelJT.dtd">
 <kmad-model version="1.2">
     <project classkmad="project.Project" idkmad="K1"/>
-    <task classkmad="tache.Tache" id-task-actors-list="K27 " id-task-point="K3" id-task-subtasks-list="K32 K7 K19 " idkmad="K4">
+    <task classkmad="tache.Tache" id-task-actors-list="K27 " id-task-point="K3" id-task-subtasks-list="K46 K32 K7 K19 " idkmad="K4">
         <task-name>InitialiserCyberCompetition</task-name>
         <task-numero>Racine   </task-numero>
         <task-observation>Tâche ajoutée en réponse à l'hypothèse H3 : L'administrateur créé des disciplines et/ou épreuves lors de l'initialisation</task-observation>
@@ -22,9 +22,26 @@
         <actor classkmad="tache.Acteur" id-user="K26" idkmad="K27">
             <actor-experience>UNK</actor-experience>
         </actor>
+        <task classkmad="tache.Tache" id-task-point="K45" idkmad="K46">
+            <task-name>NommerCompetiton</task-name>
+            <task-numero>1</task-numero>
+            <task-observation/>
+            <task-executant>INT</task-executant>
+            <task-modality>COGN</task-modality>
+            <task-optional>false</task-optional>
+            <task-interruptible>false</task-interruptible>
+            <task-decomposition>LEAF</task-decomposition>
+            <task-precondition>true</task-precondition>
+            <task-effetsdebord>void</task-effetsdebord>
+            <task-iteration>[1]</task-iteration>
+            <point classkmad="tache.Point" idkmad="K45">
+                <point-x>112</point-x>
+                <point-y>249</point-y>
+            </point>
+        </task>
         <task classkmad="tache.Tache" id-task-point="K31" id-task-subtasks-list="K35 K38 " idkmad="K32">
             <task-name>DefinirTypeCompetiton</task-name>
-            <task-numero>1</task-numero>
+            <task-numero>2</task-numero>
             <task-observation/>
             <task-executant>INT</task-executant>
             <task-modality>COGN</task-modality>
@@ -40,7 +57,7 @@
             </point>
             <task classkmad="tache.Tache" id-task-point="K34" idkmad="K35">
                 <task-name>CreerCompetitonHandiSport</task-name>
-                <task-numero>1.1</task-numero>
+                <task-numero>2.1</task-numero>
                 <task-observation/>
                 <task-executant>INT</task-executant>
                 <task-modality>COGN</task-modality>
@@ -57,7 +74,7 @@
             </task>
             <task classkmad="tache.Tache" id-task-point="K37" idkmad="K38">
                 <task-name>CreerCompetitionStandard</task-name>
-                <task-numero>1.2</task-numero>
+                <task-numero>2.2</task-numero>
                 <task-observation/>
                 <task-executant>INT</task-executant>
                 <task-modality>COGN</task-modality>
@@ -75,7 +92,7 @@
         </task>
         <task classkmad="tache.Tache" id-task-point="K6" idkmad="K7">
             <task-name>CreerDiscipline</task-name>
-            <task-numero>2</task-numero>
+            <task-numero>3</task-numero>
             <task-observation/>
             <task-executant>INT</task-executant>
             <task-modality>COGN</task-modality>
@@ -92,7 +109,7 @@
         </task>
         <task classkmad="tache.Tache" id-task-point="K18" idkmad="K19">
             <task-name>CreerEpreuve</task-name>
-            <task-numero>3</task-numero>
+            <task-numero>4</task-numero>
             <task-observation/>
             <task-executant>INT</task-executant>
             <task-modality>COGN</task-modality>
