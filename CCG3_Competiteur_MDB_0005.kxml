@@ -9,7 +9,7 @@
         </projectinformation>
     </project>
     <task classkmad="tache.Tache" id-task-actors-list="K115 " id-task-point="K3" id-task-subtasks-list="K7 K22 " idkmad="K4">
-        <task-name>GererDonneesPersonnelles</task-name>
+        <task-name>GererDonneesCompteCompetis</task-name>
         <task-numero>Racine   </task-numero>
         <task-observation/>
         <task-executant>ABS</task-executant>
@@ -28,7 +28,7 @@
             <actor-experience>UNK</actor-experience>
         </actor>
         <task classkmad="tache.Tache" id-task-point="K6" idkmad="K7">
-            <task-name>SeConnecterCompte</task-name>
+            <task-name>SeConnecterCompteCompetis</task-name>
             <task-numero>1</task-numero>
             <task-observation/>
             <task-executant>INT</task-executant>
@@ -57,7 +57,7 @@
             <task-precondition>true</task-precondition>
             <task-effetsdebord>void</task-effetsdebord>
             <task-iteration>[1]</task-iteration>
-            <task-descriptioniteration>Possibilité de choisir plusieurs types de requêtes au cours de la session</task-descriptioniteration>
+            <task-descriptioniteration>Tant que le Competiteur souhaite accéder à une rubrique</task-descriptioniteration>
             <point classkmad="tache.Point" idkmad="K21">
                 <point-x>785</point-x>
                 <point-y>174</point-y>
@@ -80,7 +80,7 @@
                 </point>
             </task>
             <task classkmad="tache.Tache" id-task-point="K24" id-task-subtasks-list="K40 K96 K28 " idkmad="K25">
-                <task-name>FormulerDoleances</task-name>
+                <task-name>FormulerDoleance</task-name>
                 <task-numero>2.2</task-numero>
                 <task-observation/>
                 <task-executant>ABS</task-executant>
@@ -91,7 +91,7 @@
                 <task-precondition>true</task-precondition>
                 <task-effetsdebord>void</task-effetsdebord>
                 <task-iteration>[1]</task-iteration>
-                <task-descriptioniteration>Possibilité de formuler une ou plusieurs doléances.</task-descriptioniteration>
+                <task-descriptioniteration>Tant que le Competiteur a une Doleance à formuler</task-descriptioniteration>
                 <point classkmad="tache.Point" idkmad="K24">
                     <point-x>752</point-x>
                     <point-y>327</point-y>
@@ -126,8 +126,8 @@
                     <task-effetsdebord>void</task-effetsdebord>
                     <task-iteration>[1]</task-iteration>
                     <point classkmad="tache.Point" idkmad="K95">
-                        <point-x>415</point-x>
-                        <point-y>644</point-y>
+                        <point-x>401</point-x>
+                        <point-y>617</point-y>
                     </point>
                 </task>
                 <task classkmad="tache.Tache" id-task-point="K27" idkmad="K28">
