@@ -46,7 +46,7 @@
             </point>
         </task>
         <task classkmad="tache.Tache" id-task-point="K21" id-task-subtasks-list="K19 K25 K37 " idkmad="K22">
-            <task-name>ChoisirActivite</task-name>
+            <task-name>ChoisirRubrique</task-name>
             <task-numero>2</task-numero>
             <task-observation/>
             <task-executant>ABS</task-executant>
@@ -63,7 +63,7 @@
                 <point-y>174</point-y>
             </point>
             <task classkmad="tache.Tache" id-task-point="K18" idkmad="K19">
-                <task-name>ConsulterInfosPersonnelles</task-name>
+                <task-name>ConsulterInfosDossier</task-name>
                 <task-numero>2.1</task-numero>
                 <task-observation>Visualiser les informations personnelles.</task-observation>
                 <task-executant>INT</task-executant>
@@ -79,7 +79,7 @@
                     <point-y>327</point-y>
                 </point>
             </task>
-            <task classkmad="tache.Tache" id-task-point="K24" id-task-subtasks-list="K96 K40 K28 " idkmad="K25">
+            <task classkmad="tache.Tache" id-task-point="K24" id-task-subtasks-list="K40 K96 K28 " idkmad="K25">
                 <task-name>FormulerDoleances</task-name>
                 <task-numero>2.2</task-numero>
                 <task-observation/>
@@ -96,8 +96,8 @@
                     <point-x>752</point-x>
                     <point-y>327</point-y>
                 </point>
-                <task classkmad="tache.Tache" id-task-point="K95" idkmad="K96">
-                    <task-name>SignalerProblemeChambre</task-name>
+                <task classkmad="tache.Tache" id-task-point="K39" idkmad="K40">
+                    <task-name>DemanderModificationDossier</task-name>
                     <task-numero>2.2.1</task-numero>
                     <task-observation/>
                     <task-executant>INT</task-executant>
@@ -108,13 +108,13 @@
                     <task-precondition>true</task-precondition>
                     <task-effetsdebord>void</task-effetsdebord>
                     <task-iteration>[1]</task-iteration>
-                    <point classkmad="tache.Point" idkmad="K95">
-                        <point-x>240</point-x>
+                    <point classkmad="tache.Point" idkmad="K39">
+                        <point-x>143</point-x>
                         <point-y>478</point-y>
                     </point>
                 </task>
-                <task classkmad="tache.Tache" id-task-point="K39" idkmad="K40">
-                    <task-name>DemanderModificationInfosPersonnelles</task-name>
+                <task classkmad="tache.Tache" id-task-point="K95" idkmad="K96">
+                    <task-name>SignalerProblemeLogement</task-name>
                     <task-numero>2.2.2</task-numero>
                     <task-observation/>
                     <task-executant>INT</task-executant>
@@ -125,13 +125,13 @@
                     <task-precondition>true</task-precondition>
                     <task-effetsdebord>void</task-effetsdebord>
                     <task-iteration>[1]</task-iteration>
-                    <point classkmad="tache.Point" idkmad="K39">
-                        <point-x>377</point-x>
-                        <point-y>612</point-y>
+                    <point classkmad="tache.Point" idkmad="K95">
+                        <point-x>415</point-x>
+                        <point-y>644</point-y>
                     </point>
                 </task>
                 <task classkmad="tache.Tache" id-task-point="K27" idkmad="K28">
-                    <task-name>DemanderChangementChambre</task-name>
+                    <task-name>DemanderChangementLogement</task-name>
                     <task-numero>2.2.3</task-numero>
                     <task-observation/>
                     <task-executant>INT</task-executant>
