@@ -2,114 +2,26 @@
 <!DOCTYPE kmad-model SYSTEM "file:KMADModelJT.dtd">
 <kmad-model version="1.2">
     <project classkmad="project.Project" idkmad="K1"/>
-    <task classkmad="tache.Tache" id-task-point="K3" id-task-subtasks-list="K10 K13 K7 " idkmad="K4">
-        <task-name>SuivreEpreuve</task-name>
+    <task classkmad="tache.Tache" id-task-point="K3" id-task-subtasks-list="K13 K114 " idkmad="K4">
+        <task-name>ComminquerResultatsEpreuve</task-name>
         <task-numero>Racine   </task-numero>
         <task-observation/>
         <task-executant>ABS</task-executant>
         <task-modality>COGN</task-modality>
         <task-optional>false</task-optional>
         <task-interruptible>false</task-interruptible>
-        <task-decomposition>SEQ</task-decomposition>
+        <task-decomposition>PAR</task-decomposition>
         <task-precondition>true</task-precondition>
+        <task-descriptionprecondition> l'epreuve doit etre planifiee</task-descriptionprecondition>
         <task-effetsdebord>void</task-effetsdebord>
         <task-iteration>[1]</task-iteration>
         <point classkmad="tache.Point" idkmad="K3">
-            <point-x>706</point-x>
-            <point-y>42</point-y>
+            <point-x>490</point-x>
+            <point-y>46</point-y>
         </point>
-        <task classkmad="tache.Tache" id-task-actors-list="K71 " id-task-point="K9" id-task-subtasks-list="K16 K19 K22 K25 " idkmad="K10">
-            <task-name>PlanifierEpreuve</task-name>
-            <task-numero>1</task-numero>
-            <task-observation>CR003:11,13</task-observation>
-            <task-executant>ABS</task-executant>
-            <task-modality>COGN</task-modality>
-            <task-optional>false</task-optional>
-            <task-interruptible>false</task-interruptible>
-            <task-decomposition>SEQ</task-decomposition>
-            <task-precondition>true</task-precondition>
-            <task-effetsdebord>void</task-effetsdebord>
-            <task-iteration>[1]</task-iteration>
-            <task-descriptioniteration>tant que tous les epreuves ne sont pas planifier</task-descriptioniteration>
-            <point classkmad="tache.Point" idkmad="K9">
-                <point-x>351</point-x>
-                <point-y>204</point-y>
-            </point>
-            <actor classkmad="tache.Acteur" id-user="K46" idkmad="K71">
-                <actor-experience>UNK</actor-experience>
-            </actor>
-            <task classkmad="tache.Tache" id-task-point="K15" idkmad="K16">
-                <task-name>ChoisirDiscipline</task-name>
-                <task-numero>1.1</task-numero>
-                <task-observation/>
-                <task-executant>INT</task-executant>
-                <task-modality>COGN</task-modality>
-                <task-optional>false</task-optional>
-                <task-interruptible>false</task-interruptible>
-                <task-decomposition>LEAF</task-decomposition>
-                <task-precondition>true</task-precondition>
-                <task-effetsdebord>void</task-effetsdebord>
-                <task-iteration>[1]</task-iteration>
-                <point classkmad="tache.Point" idkmad="K15">
-                    <point-x>56</point-x>
-                    <point-y>393</point-y>
-                </point>
-            </task>
-            <task classkmad="tache.Tache" id-task-point="K18" idkmad="K19">
-                <task-name>ChoisirEpreuve</task-name>
-                <task-numero>1.2</task-numero>
-                <task-observation/>
-                <task-executant>INT</task-executant>
-                <task-modality>COGN</task-modality>
-                <task-optional>false</task-optional>
-                <task-interruptible>false</task-interruptible>
-                <task-decomposition>LEAF</task-decomposition>
-                <task-precondition>true</task-precondition>
-                <task-effetsdebord>void</task-effetsdebord>
-                <task-iteration>[1]</task-iteration>
-                <point classkmad="tache.Point" idkmad="K18">
-                    <point-x>280</point-x>
-                    <point-y>393</point-y>
-                </point>
-            </task>
-            <task classkmad="tache.Tache" id-task-point="K21" idkmad="K22">
-                <task-name>ChoisirEquipe</task-name>
-                <task-numero>1.3</task-numero>
-                <task-observation/>
-                <task-executant>INT</task-executant>
-                <task-modality>COGN</task-modality>
-                <task-optional>false</task-optional>
-                <task-interruptible>false</task-interruptible>
-                <task-decomposition>LEAF</task-decomposition>
-                <task-precondition>true</task-precondition>
-                <task-effetsdebord>void</task-effetsdebord>
-                <task-iteration>[1]</task-iteration>
-                <point classkmad="tache.Point" idkmad="K21">
-                    <point-x>452</point-x>
-                    <point-y>393</point-y>
-                </point>
-            </task>
-            <task classkmad="tache.Tache" id-task-point="K24" idkmad="K25">
-                <task-name>AjouterJourPassage</task-name>
-                <task-numero>1.4</task-numero>
-                <task-observation/>
-                <task-executant>INT</task-executant>
-                <task-modality>COGN</task-modality>
-                <task-optional>false</task-optional>
-                <task-interruptible>false</task-interruptible>
-                <task-decomposition>LEAF</task-decomposition>
-                <task-precondition>true</task-precondition>
-                <task-effetsdebord>void</task-effetsdebord>
-                <task-iteration>[1]</task-iteration>
-                <point classkmad="tache.Point" idkmad="K24">
-                    <point-x>634</point-x>
-                    <point-y>393</point-y>
-                </point>
-            </task>
-        </task>
         <task classkmad="tache.Tache" id-task-actors-list="K72 " id-task-point="K12" idkmad="K13">
             <task-name>CollecterResultats</task-name>
-            <task-numero>2</task-numero>
+            <task-numero>1</task-numero>
             <task-observation>CR003:16</task-observation>
             <task-executant>USER</task-executant>
             <task-modality>COGN</task-modality>
@@ -119,37 +31,38 @@
             <task-precondition>true</task-precondition>
             <task-effetsdebord>void</task-effetsdebord>
             <task-iteration>[1]</task-iteration>
+            <task-descriptioniteration>tantt que il ya des epreuves non termines</task-descriptioniteration>
             <point classkmad="tache.Point" idkmad="K12">
-                <point-x>674</point-x>
-                <point-y>204</point-y>
+                <point-x>93</point-x>
+                <point-y>186</point-y>
             </point>
             <actor classkmad="tache.Acteur" id-user="K45" idkmad="K72">
                 <actor-experience>UNK</actor-experience>
             </actor>
         </task>
-        <task classkmad="tache.Tache" id-task-actors-list="K88 " id-task-point="K6" id-task-subtasks-list="K28 K30 K51 K32 K48 " idkmad="K7">
+        <task classkmad="tache.Tache" id-task-actors-list="K116 " id-task-point="K113" id-task-subtasks-list="K28 K118 " idkmad="K114">
             <task-name>PublierResultats</task-name>
-            <task-numero>3</task-numero>
-            <task-observation>CR003:17</task-observation>
+            <task-numero>2</task-numero>
+            <task-observation/>
             <task-executant>ABS</task-executant>
             <task-modality>COGN</task-modality>
             <task-optional>false</task-optional>
             <task-interruptible>false</task-interruptible>
             <task-decomposition>SEQ</task-decomposition>
             <task-precondition>true</task-precondition>
+            <task-descriptionprecondition>au moins un résultat collecté</task-descriptionprecondition>
             <task-effetsdebord>void</task-effetsdebord>
             <task-iteration>[1]</task-iteration>
-            <task-descriptioniteration>tant que tous les resultats ne sont pas publier</task-descriptioniteration>
-            <point classkmad="tache.Point" idkmad="K6">
-                <point-x>1147</point-x>
-                <point-y>180</point-y>
+            <point classkmad="tache.Point" idkmad="K113">
+                <point-x>726</point-x>
+                <point-y>181</point-y>
             </point>
-            <actor classkmad="tache.Acteur" id-user="K33" idkmad="K88">
+            <actor classkmad="tache.Acteur" id-user="K33" idkmad="K116">
                 <actor-experience>UNK</actor-experience>
             </actor>
             <task classkmad="tache.Tache" id-task-point="K27" idkmad="K28">
                 <task-name>SidentifierParEmpreinteDigital</task-name>
-                <task-numero>3.1</task-numero>
+                <task-numero>2.1</task-numero>
                 <task-observation/>
                 <task-executant>INT</task-executant>
                 <task-modality>COGN</task-modality>
@@ -160,64 +73,13 @@
                 <task-effetsdebord>void</task-effetsdebord>
                 <task-iteration>[1]</task-iteration>
                 <point classkmad="tache.Point" idkmad="K27">
-                    <point-x>848</point-x>
-                    <point-y>393</point-y>
+                    <point-x>465</point-x>
+                    <point-y>335</point-y>
                 </point>
             </task>
-            <task classkmad="tache.Tache" id-task-point="K29" idkmad="K30">
-                <task-name>ChoisirDiscipline</task-name>
-                <task-numero>3.2</task-numero>
-                <task-observation/>
-                <task-executant>INT</task-executant>
-                <task-modality>COGN</task-modality>
-                <task-optional>false</task-optional>
-                <task-interruptible>false</task-interruptible>
-                <task-decomposition>LEAF</task-decomposition>
-                <task-precondition>true</task-precondition>
-                <task-effetsdebord>void</task-effetsdebord>
-                <task-iteration>[1]</task-iteration>
-                <point classkmad="tache.Point" idkmad="K29">
-                    <point-x>1154</point-x>
-                    <point-y>393</point-y>
-                </point>
-            </task>
-            <task classkmad="tache.Tache" id-task-point="K50" idkmad="K51">
-                <task-name>SelectionnerEpreuve</task-name>
-                <task-numero>3.3</task-numero>
-                <task-observation/>
-                <task-executant>INT</task-executant>
-                <task-modality>COGN</task-modality>
-                <task-optional>false</task-optional>
-                <task-interruptible>false</task-interruptible>
-                <task-decomposition>LEAF</task-decomposition>
-                <task-precondition>true</task-precondition>
-                <task-effetsdebord>void</task-effetsdebord>
-                <task-iteration>[1]</task-iteration>
-                <point classkmad="tache.Point" idkmad="K50">
-                    <point-x>1257</point-x>
-                    <point-y>540</point-y>
-                </point>
-            </task>
-            <task classkmad="tache.Tache" id-task-point="K31" idkmad="K32">
-                <task-name>EntrerResultats</task-name>
-                <task-numero>3.4</task-numero>
-                <task-observation/>
-                <task-executant>INT</task-executant>
-                <task-modality>COGN</task-modality>
-                <task-optional>false</task-optional>
-                <task-interruptible>false</task-interruptible>
-                <task-decomposition>LEAF</task-decomposition>
-                <task-precondition>true</task-precondition>
-                <task-effetsdebord>void</task-effetsdebord>
-                <task-iteration>[1]</task-iteration>
-                <point classkmad="tache.Point" idkmad="K31">
-                    <point-x>1385</point-x>
-                    <point-y>393</point-y>
-                </point>
-            </task>
-            <task classkmad="tache.Tache" id-task-point="K47" id-task-subtasks-list="K53 K55 " idkmad="K48">
-                <task-name>AttribuerMedailles</task-name>
-                <task-numero>3.5</task-numero>
+            <task classkmad="tache.Tache" id-task-point="K117" id-task-subtasks-list="K121 K51 K32 K48 " idkmad="K118">
+                <task-name>ImplementerEpreuve</task-name>
+                <task-numero>2.2</task-numero>
                 <task-observation/>
                 <task-executant>INT</task-executant>
                 <task-modality>COGN</task-modality>
@@ -227,81 +89,14 @@
                 <task-precondition>true</task-precondition>
                 <task-effetsdebord>void</task-effetsdebord>
                 <task-iteration>[1]</task-iteration>
-                <point classkmad="tache.Point" idkmad="K47">
-                    <point-x>1619</point-x>
-                    <point-y>393</point-y>
+                <task-descriptioniteration>A faire tant que on a des résultats à publier</task-descriptioniteration>
+                <point classkmad="tache.Point" idkmad="K117">
+                    <point-x>988</point-x>
+                    <point-y>335</point-y>
                 </point>
-                <task classkmad="tache.Tache" id-task-point="K52" id-task-subtasks-list="K90 K93 K96 " idkmad="K53">
-                    <task-name>SaisirMedailles</task-name>
-                    <task-numero>3.5.1</task-numero>
-                    <task-observation/>
-                    <task-executant>INT</task-executant>
-                    <task-modality>COGN</task-modality>
-                    <task-optional>false</task-optional>
-                    <task-interruptible>false</task-interruptible>
-                    <task-decomposition>ENT</task-decomposition>
-                    <task-precondition>true</task-precondition>
-                    <task-effetsdebord>void</task-effetsdebord>
-                    <task-iteration>[1]</task-iteration>
-                    <point classkmad="tache.Point" idkmad="K52">
-                        <point-x>1546</point-x>
-                        <point-y>580</point-y>
-                    </point>
-                    <task classkmad="tache.Tache" id-task-point="K89" idkmad="K90">
-                        <task-name>AttribuerMedailleOr</task-name>
-                        <task-numero>3.5.1.1</task-numero>
-                        <task-observation/>
-                        <task-executant>INT</task-executant>
-                        <task-modality>COGN</task-modality>
-                        <task-optional>false</task-optional>
-                        <task-interruptible>false</task-interruptible>
-                        <task-decomposition>LEAF</task-decomposition>
-                        <task-precondition>true</task-precondition>
-                        <task-effetsdebord>void</task-effetsdebord>
-                        <task-iteration>[1]</task-iteration>
-                        <point classkmad="tache.Point" idkmad="K89">
-                            <point-x>1465</point-x>
-                            <point-y>766</point-y>
-                        </point>
-                    </task>
-                    <task classkmad="tache.Tache" id-task-point="K92" idkmad="K93">
-                        <task-name>AttribuerMedailleArgent</task-name>
-                        <task-numero>3.5.1.2</task-numero>
-                        <task-observation/>
-                        <task-executant>INT</task-executant>
-                        <task-modality>COGN</task-modality>
-                        <task-optional>false</task-optional>
-                        <task-interruptible>false</task-interruptible>
-                        <task-decomposition>LEAF</task-decomposition>
-                        <task-precondition>true</task-precondition>
-                        <task-effetsdebord>void</task-effetsdebord>
-                        <task-iteration>[1]</task-iteration>
-                        <point classkmad="tache.Point" idkmad="K92">
-                            <point-x>1694</point-x>
-                            <point-y>766</point-y>
-                        </point>
-                    </task>
-                    <task classkmad="tache.Tache" id-task-point="K95" idkmad="K96">
-                        <task-name>AttribuerMedailleBronze</task-name>
-                        <task-numero>3.5.1.3</task-numero>
-                        <task-observation/>
-                        <task-executant>INT</task-executant>
-                        <task-modality>COGN</task-modality>
-                        <task-optional>false</task-optional>
-                        <task-interruptible>false</task-interruptible>
-                        <task-decomposition>LEAF</task-decomposition>
-                        <task-precondition>true</task-precondition>
-                        <task-effetsdebord>void</task-effetsdebord>
-                        <task-iteration>[1]</task-iteration>
-                        <point classkmad="tache.Point" idkmad="K95">
-                            <point-x>1922</point-x>
-                            <point-y>766</point-y>
-                        </point>
-                    </task>
-                </task>
-                <task classkmad="tache.Tache" id-task-point="K54" idkmad="K55">
-                    <task-name>PublierMedaillesResultatsSurInternet</task-name>
-                    <task-numero>3.5.2</task-numero>
+                <task classkmad="tache.Tache" id-task-point="K120" idkmad="K121">
+                    <task-name>ChoisirDiscipline</task-name>
+                    <task-numero>2.2.1</task-numero>
                     <task-observation/>
                     <task-executant>INT</task-executant>
                     <task-modality>COGN</task-modality>
@@ -311,10 +106,146 @@
                     <task-precondition>true</task-precondition>
                     <task-effetsdebord>void</task-effetsdebord>
                     <task-iteration>[1]</task-iteration>
-                    <point classkmad="tache.Point" idkmad="K54">
-                        <point-x>1762</point-x>
-                        <point-y>560</point-y>
+                    <point classkmad="tache.Point" idkmad="K120">
+                        <point-x>722</point-x>
+                        <point-y>481</point-y>
                     </point>
+                </task>
+                <task classkmad="tache.Tache" id-task-point="K50" idkmad="K51">
+                    <task-name>SelectionnerEpreuve</task-name>
+                    <task-numero>2.2.2</task-numero>
+                    <task-observation/>
+                    <task-executant>INT</task-executant>
+                    <task-modality>COGN</task-modality>
+                    <task-optional>false</task-optional>
+                    <task-interruptible>false</task-interruptible>
+                    <task-decomposition>LEAF</task-decomposition>
+                    <task-precondition>true</task-precondition>
+                    <task-effetsdebord>void</task-effetsdebord>
+                    <task-iteration>[1]</task-iteration>
+                    <point classkmad="tache.Point" idkmad="K50">
+                        <point-x>928</point-x>
+                        <point-y>482</point-y>
+                    </point>
+                </task>
+                <task classkmad="tache.Tache" id-task-point="K31" idkmad="K32">
+                    <task-name>EntrerResultats</task-name>
+                    <task-numero>2.2.3</task-numero>
+                    <task-observation/>
+                    <task-executant>INT</task-executant>
+                    <task-modality>COGN</task-modality>
+                    <task-optional>false</task-optional>
+                    <task-interruptible>false</task-interruptible>
+                    <task-decomposition>LEAF</task-decomposition>
+                    <task-precondition>true</task-precondition>
+                    <task-effetsdebord>void</task-effetsdebord>
+                    <task-iteration>[1]</task-iteration>
+                    <point classkmad="tache.Point" idkmad="K31">
+                        <point-x>1118</point-x>
+                        <point-y>481</point-y>
+                    </point>
+                </task>
+                <task classkmad="tache.Tache" id-task-point="K47" id-task-subtasks-list="K53 K55 " idkmad="K48">
+                    <task-name>AttribuerMedailles</task-name>
+                    <task-numero>2.2.4</task-numero>
+                    <task-observation/>
+                    <task-executant>INT</task-executant>
+                    <task-modality>COGN</task-modality>
+                    <task-optional>false</task-optional>
+                    <task-interruptible>false</task-interruptible>
+                    <task-decomposition>SEQ</task-decomposition>
+                    <task-precondition>true</task-precondition>
+                    <task-effetsdebord>void</task-effetsdebord>
+                    <task-iteration>[1]</task-iteration>
+                    <point classkmad="tache.Point" idkmad="K47">
+                        <point-x>1337</point-x>
+                        <point-y>481</point-y>
+                    </point>
+                    <task classkmad="tache.Tache" id-task-point="K52" id-task-subtasks-list="K90 K93 K96 " idkmad="K53">
+                        <task-name>SaisirMedailles</task-name>
+                        <task-numero>2.2.4.1</task-numero>
+                        <task-observation/>
+                        <task-executant>INT</task-executant>
+                        <task-modality>COGN</task-modality>
+                        <task-optional>false</task-optional>
+                        <task-interruptible>false</task-interruptible>
+                        <task-decomposition>ENT</task-decomposition>
+                        <task-precondition>true</task-precondition>
+                        <task-effetsdebord>void</task-effetsdebord>
+                        <task-iteration>[1]</task-iteration>
+                        <point classkmad="tache.Point" idkmad="K52">
+                            <point-x>1228</point-x>
+                            <point-y>653</point-y>
+                        </point>
+                        <task classkmad="tache.Tache" id-task-point="K89" idkmad="K90">
+                            <task-name>AttribuerMedailleOr</task-name>
+                            <task-numero>2.2.4.1.1</task-numero>
+                            <task-observation/>
+                            <task-executant>INT</task-executant>
+                            <task-modality>COGN</task-modality>
+                            <task-optional>false</task-optional>
+                            <task-interruptible>false</task-interruptible>
+                            <task-decomposition>LEAF</task-decomposition>
+                            <task-precondition>true</task-precondition>
+                            <task-effetsdebord>void</task-effetsdebord>
+                            <task-iteration>[1]</task-iteration>
+                            <point classkmad="tache.Point" idkmad="K89">
+                                <point-x>894</point-x>
+                                <point-y>834</point-y>
+                            </point>
+                        </task>
+                        <task classkmad="tache.Tache" id-task-point="K92" idkmad="K93">
+                            <task-name>AttribuerMedailleArgent</task-name>
+                            <task-numero>2.2.4.1.2</task-numero>
+                            <task-observation/>
+                            <task-executant>INT</task-executant>
+                            <task-modality>COGN</task-modality>
+                            <task-optional>false</task-optional>
+                            <task-interruptible>false</task-interruptible>
+                            <task-decomposition>LEAF</task-decomposition>
+                            <task-precondition>true</task-precondition>
+                            <task-effetsdebord>void</task-effetsdebord>
+                            <task-iteration>[1]</task-iteration>
+                            <point classkmad="tache.Point" idkmad="K92">
+                                <point-x>1171</point-x>
+                                <point-y>834</point-y>
+                            </point>
+                        </task>
+                        <task classkmad="tache.Tache" id-task-point="K95" idkmad="K96">
+                            <task-name>AttribuerMedailleBronze</task-name>
+                            <task-numero>2.2.4.1.3</task-numero>
+                            <task-observation/>
+                            <task-executant>INT</task-executant>
+                            <task-modality>COGN</task-modality>
+                            <task-optional>false</task-optional>
+                            <task-interruptible>false</task-interruptible>
+                            <task-decomposition>LEAF</task-decomposition>
+                            <task-precondition>true</task-precondition>
+                            <task-effetsdebord>void</task-effetsdebord>
+                            <task-iteration>[1]</task-iteration>
+                            <point classkmad="tache.Point" idkmad="K95">
+                                <point-x>1470</point-x>
+                                <point-y>834</point-y>
+                            </point>
+                        </task>
+                    </task>
+                    <task classkmad="tache.Tache" id-task-point="K54" idkmad="K55">
+                        <task-name>PublierMedaillesResultatsSurInternet</task-name>
+                        <task-numero>2.2.4.2</task-numero>
+                        <task-observation/>
+                        <task-executant>INT</task-executant>
+                        <task-modality>COGN</task-modality>
+                        <task-optional>false</task-optional>
+                        <task-interruptible>false</task-interruptible>
+                        <task-decomposition>LEAF</task-decomposition>
+                        <task-precondition>true</task-precondition>
+                        <task-effetsdebord>void</task-effetsdebord>
+                        <task-iteration>[1]</task-iteration>
+                        <point classkmad="tache.Point" idkmad="K54">
+                            <point-x>1521</point-x>
+                            <point-y>653</point-y>
+                        </point>
+                    </task>
                 </task>
             </task>
         </task>
