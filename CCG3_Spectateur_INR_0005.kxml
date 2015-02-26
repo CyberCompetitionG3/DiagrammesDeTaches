@@ -558,4 +558,9 @@
             </task>
         </task>
     </task>
+    <Individu classkmad="tache.Individu" idkmad="K218">
+        <individu-name>Virginie</individu-name>
+        <individu-role>Spectateur</individu-role>
+        <individu-imagepath>/home/n/naceuri/Téléchargements/DiagrammesDeTaches/Photos/Spectatrice.jpeg</individu-imagepath>
+    </Individu>
 </kmad-model>
