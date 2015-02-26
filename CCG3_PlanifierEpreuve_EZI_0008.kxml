@@ -125,7 +125,7 @@
                     <point-y>361</point-y>
                 </point>
                 <task classkmad="tache.Tache" id-task-point="K45" idkmad="K46">
-                    <task-name>SelectionnerMasculin</task-name>
+                    <task-name>SelectionnerEpreuveMasculine</task-name>
                     <task-numero>2.2.1</task-numero>
                     <task-observation/>
                     <task-executant>INT</task-executant>
@@ -137,12 +137,12 @@
                     <task-effetsdebord>void</task-effetsdebord>
                     <task-iteration>[1]</task-iteration>
                     <point classkmad="tache.Point" idkmad="K45">
-                        <point-x>502</point-x>
-                        <point-y>522</point-y>
+                        <point-x>452</point-x>
+                        <point-y>618</point-y>
                     </point>
                 </task>
                 <task classkmad="tache.Tache" id-task-point="K48" idkmad="K49">
-                    <task-name>SelectionnerFeminin</task-name>
+                    <task-name>SelectionnerEpreuveFeminine</task-name>
                     <task-numero>2.2.2</task-numero>
                     <task-observation/>
                     <task-executant>INT</task-executant>
@@ -154,12 +154,12 @@
                     <task-effetsdebord>void</task-effetsdebord>
                     <task-iteration>[1]</task-iteration>
                     <point classkmad="tache.Point" idkmad="K48">
-                        <point-x>688</point-x>
+                        <point-x>679</point-x>
                         <point-y>522</point-y>
                     </point>
                 </task>
                 <task classkmad="tache.Tache" id-task-point="K57" idkmad="K58">
-                    <task-name>SelectionnerMixte</task-name>
+                    <task-name>SelectionnerEpreuveMixte</task-name>
                     <task-numero>2.2.3</task-numero>
                     <task-observation/>
                     <task-executant>INT</task-executant>
@@ -171,8 +171,8 @@
                     <task-effetsdebord>void</task-effetsdebord>
                     <task-iteration>[1]</task-iteration>
                     <point classkmad="tache.Point" idkmad="K57">
-                        <point-x>871</point-x>
-                        <point-y>522</point-y>
+                        <point-x>888</point-x>
+                        <point-y>618</point-y>
                     </point>
                 </task>
             </task>
