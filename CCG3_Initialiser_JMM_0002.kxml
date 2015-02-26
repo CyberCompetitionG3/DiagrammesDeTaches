@@ -1,0 +1,117 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE kmad-model SYSTEM "file:KMADModelJT.dtd">
+<kmad-model version="1.2">
+    <project classkmad="project.Project" idkmad="K1"/>
+    <task classkmad="tache.Tache" id-task-actors-list="K27 " id-task-point="K3" id-task-subtasks-list="K32 K7 K19 " idkmad="K4">
+        <task-name>InitialiserCyberCompetition</task-name>
+        <task-numero>Racine   </task-numero>
+        <task-observation>Tâche ajoutée en réponse à l'hypothèse H3 : L'administrateur créé des disciplines et/ou épreuves lors de l'initialisation</task-observation>
+        <task-executant>INT</task-executant>
+        <task-modality>COGN</task-modality>
+        <task-optional>false</task-optional>
+        <task-interruptible>false</task-interruptible>
+        <task-decomposition>SEQ</task-decomposition>
+        <task-precondition>true</task-precondition>
+        <task-effetsdebord>void</task-effetsdebord>
+        <task-iteration>[1]</task-iteration>
+        <task-descriptioniteration>tant qu'il reste des disciplines à ajouter</task-descriptioniteration>
+        <point classkmad="tache.Point" idkmad="K3">
+            <point-x>619</point-x>
+            <point-y>46</point-y>
+        </point>
+        <actor classkmad="tache.Acteur" id-user="K26" idkmad="K27">
+            <actor-experience>UNK</actor-experience>
+        </actor>
+        <task classkmad="tache.Tache" id-task-point="K31" id-task-subtasks-list="K35 K38 " idkmad="K32">
+            <task-name>DefinirTypeCompetiton</task-name>
+            <task-numero>1</task-numero>
+            <task-observation/>
+            <task-executant>INT</task-executant>
+            <task-modality>COGN</task-modality>
+            <task-optional>false</task-optional>
+            <task-interruptible>false</task-interruptible>
+            <task-decomposition>ALT</task-decomposition>
+            <task-precondition>true</task-precondition>
+            <task-effetsdebord>void</task-effetsdebord>
+            <task-iteration>[1]</task-iteration>
+            <point classkmad="tache.Point" idkmad="K31">
+                <point-x>374</point-x>
+                <point-y>249</point-y>
+            </point>
+            <task classkmad="tache.Tache" id-task-point="K34" idkmad="K35">
+                <task-name>CreerCompetitonHandiSport</task-name>
+                <task-numero>1.1</task-numero>
+                <task-observation/>
+                <task-executant>INT</task-executant>
+                <task-modality>COGN</task-modality>
+                <task-optional>false</task-optional>
+                <task-interruptible>false</task-interruptible>
+                <task-decomposition>LEAF</task-decomposition>
+                <task-precondition>true</task-precondition>
+                <task-effetsdebord>void</task-effetsdebord>
+                <task-iteration>[1]</task-iteration>
+                <point classkmad="tache.Point" idkmad="K34">
+                    <point-x>124</point-x>
+                    <point-y>467</point-y>
+                </point>
+            </task>
+            <task classkmad="tache.Tache" id-task-point="K37" idkmad="K38">
+                <task-name>CreerCompetitionStandard</task-name>
+                <task-numero>1.2</task-numero>
+                <task-observation/>
+                <task-executant>INT</task-executant>
+                <task-modality>COGN</task-modality>
+                <task-optional>false</task-optional>
+                <task-interruptible>false</task-interruptible>
+                <task-decomposition>LEAF</task-decomposition>
+                <task-precondition>true</task-precondition>
+                <task-effetsdebord>void</task-effetsdebord>
+                <task-iteration>[1]</task-iteration>
+                <point classkmad="tache.Point" idkmad="K37">
+                    <point-x>572</point-x>
+                    <point-y>467</point-y>
+                </point>
+            </task>
+        </task>
+        <task classkmad="tache.Tache" id-task-point="K6" idkmad="K7">
+            <task-name>CreerDiscipline</task-name>
+            <task-numero>2</task-numero>
+            <task-observation/>
+            <task-executant>INT</task-executant>
+            <task-modality>COGN</task-modality>
+            <task-optional>false</task-optional>
+            <task-interruptible>false</task-interruptible>
+            <task-decomposition>LEAF</task-decomposition>
+            <task-precondition>true</task-precondition>
+            <task-effetsdebord>void</task-effetsdebord>
+            <task-iteration>[1]</task-iteration>
+            <point classkmad="tache.Point" idkmad="K6">
+                <point-x>880</point-x>
+                <point-y>249</point-y>
+            </point>
+        </task>
+        <task classkmad="tache.Tache" id-task-point="K18" idkmad="K19">
+            <task-name>CreerEpreuve</task-name>
+            <task-numero>3</task-numero>
+            <task-observation/>
+            <task-executant>INT</task-executant>
+            <task-modality>COGN</task-modality>
+            <task-optional>false</task-optional>
+            <task-interruptible>false</task-interruptible>
+            <task-decomposition>LEAF</task-decomposition>
+            <task-precondition>true</task-precondition>
+            <task-effetsdebord>void</task-effetsdebord>
+            <task-iteration>[1]</task-iteration>
+            <task-descriptioniteration>tant qu'il reste des épreuves à ajouter dans la discipline choisie</task-descriptioniteration>
+            <point classkmad="tache.Point" idkmad="K18">
+                <point-x>1156</point-x>
+                <point-y>249</point-y>
+            </point>
+        </task>
+    </task>
+    <Individu classkmad="tache.Individu" idkmad="K26">
+        <individu-name>Gilles Bates</individu-name>
+        <individu-statut>Administrateur</individu-statut>
+        <individu-role>Creer des disciplines et/ou épreuves</individu-role>
+    </Individu>
+</kmad-model>
