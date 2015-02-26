@@ -63,7 +63,7 @@
                 <task-modality>COGN</task-modality>
                 <task-optional>false</task-optional>
                 <task-interruptible>false</task-interruptible>
-                <task-decomposition>PAR</task-decomposition>
+                <task-decomposition>SEQ</task-decomposition>
                 <task-precondition>true</task-precondition>
                 <task-effetsdebord>void</task-effetsdebord>
                 <task-iteration>[1]</task-iteration>
@@ -99,7 +99,7 @@
                         <task-precondition>true</task-precondition>
                         <task-effetsdebord>void</task-effetsdebord>
                         <task-iteration>[1]</task-iteration>
-                        <task-descriptioniteration>Tantque on n'a pas choisi toutes les épreuves aux quelles on veut assister on peut continuer de choiir</task-descriptioniteration>
+                        <task-descriptioniteration>Tantque on n'a pas choisi toutes les épreuves aux quelles on veut assister on peut continuer de choisir</task-descriptioniteration>
                         <point classkmad="tache.Point" idkmad="K73">
                             <point-x>52</point-x>
                             <point-y>697</point-y>
@@ -169,7 +169,7 @@
                         <task-descriptionprecondition>Si ily a des places disponibles</task-descriptionprecondition>
                         <task-effetsdebord>void</task-effetsdebord>
                         <task-iteration>[1]</task-iteration>
-                        <task-descriptioniteration>Tant que on n'a pas choisi toutes les places on continue de choisir</task-descriptioniteration>
+                        <task-descriptioniteration>Tantque on n'a pas choisi toutes les places on continue de choisir</task-descriptioniteration>
                         <point classkmad="tache.Point" idkmad="K76">
                             <point-x>408</point-x>
                             <point-y>697</point-y>
@@ -463,7 +463,7 @@
             <task-interruptible>false</task-interruptible>
             <task-decomposition>LEAF</task-decomposition>
             <task-precondition>true</task-precondition>
-            <task-descriptionprecondition>Se présenter devant le point d'accès indiqué sur l'écran géant pour une telle épreuve</task-descriptionprecondition>
+            <task-descriptionprecondition>Si on est devant le bon point d'accès </task-descriptionprecondition>
             <task-effetsdebord>void</task-effetsdebord>
             <task-iteration>[1]</task-iteration>
             <point classkmad="tache.Point" idkmad="K27">
@@ -498,7 +498,6 @@
             <task-interruptible>false</task-interruptible>
             <task-decomposition>ALT</task-decomposition>
             <task-precondition>true</task-precondition>
-            <task-descriptionprecondition>Une seule personne rentre dans un sas</task-descriptionprecondition>
             <task-effetsdebord>void</task-effetsdebord>
             <task-iteration>[1]</task-iteration>
             <point classkmad="tache.Point" idkmad="K33">
@@ -515,6 +514,7 @@
                 <task-interruptible>false</task-interruptible>
                 <task-decomposition>LEAF</task-decomposition>
                 <task-precondition>true</task-precondition>
+                <task-descriptionprecondition>Si une seule personne rentre dans le bissas et s'il s'agit du bon point d'accès</task-descriptionprecondition>
                 <task-effetsdebord>void</task-effetsdebord>
                 <task-iteration>[1]</task-iteration>
                 <point classkmad="tache.Point" idkmad="K36">
@@ -532,6 +532,7 @@
                 <task-interruptible>false</task-interruptible>
                 <task-decomposition>LEAF</task-decomposition>
                 <task-precondition>true</task-precondition>
+                <task-descriptionprecondition>Si une personne rentre dans un bissas et se trompe de point d'accès</task-descriptionprecondition>
                 <task-effetsdebord>void</task-effetsdebord>
                 <task-iteration>[1]</task-iteration>
                 <point classkmad="tache.Point" idkmad="K39">
@@ -549,6 +550,7 @@
                 <task-interruptible>false</task-interruptible>
                 <task-decomposition>LEAF</task-decomposition>
                 <task-precondition>true</task-precondition>
+                <task-descriptionprecondition>Si deux personnes rentrent dans un même bissas et il s'agit du bon point d'accès</task-descriptionprecondition>
                 <task-effetsdebord>void</task-effetsdebord>
                 <task-iteration>[1]</task-iteration>
                 <point classkmad="tache.Point" idkmad="K184">
@@ -560,7 +562,5 @@
     </task>
     <Individu classkmad="tache.Individu" idkmad="K218">
         <individu-name>Virginie</individu-name>
-        <individu-role>Spectateur</individu-role>
-        <individu-imagepath>/home/n/naceuri/Téléchargements/DiagrammesDeTaches/Photos/Spectatrice.jpeg</individu-imagepath>
     </Individu>
 </kmad-model>
