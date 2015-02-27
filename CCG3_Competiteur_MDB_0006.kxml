@@ -45,7 +45,7 @@
                 <point-y>174</point-y>
             </point>
         </task>
-        <task classkmad="tache.Tache" id-task-point="K21" id-task-subtasks-list="K19 K25 K37 " idkmad="K22">
+        <task classkmad="tache.Tache" id-task-point="K21" id-task-subtasks-list="K19 K129 K25 K37 " idkmad="K22">
             <task-name>ChoisirRubrique</task-name>
             <task-numero>2</task-numero>
             <task-observation/>
@@ -75,13 +75,30 @@
                 <task-effetsdebord>void</task-effetsdebord>
                 <task-iteration>[1]</task-iteration>
                 <point classkmad="tache.Point" idkmad="K18">
-                    <point-x>407</point-x>
+                    <point-x>301</point-x>
+                    <point-y>327</point-y>
+                </point>
+            </task>
+            <task classkmad="tache.Tache" id-task-point="K128" idkmad="K129">
+                <task-name>ConsulterCalendrierEpreuves</task-name>
+                <task-numero>2.2</task-numero>
+                <task-observation/>
+                <task-executant>INT</task-executant>
+                <task-modality>COGN</task-modality>
+                <task-optional>false</task-optional>
+                <task-interruptible>false</task-interruptible>
+                <task-decomposition>LEAF</task-decomposition>
+                <task-precondition>true</task-precondition>
+                <task-effetsdebord>void</task-effetsdebord>
+                <task-iteration>[1]</task-iteration>
+                <point classkmad="tache.Point" idkmad="K128">
+                    <point-x>520</point-x>
                     <point-y>327</point-y>
                 </point>
             </task>
             <task classkmad="tache.Tache" id-task-point="K24" id-task-subtasks-list="K40 K96 K28 " idkmad="K25">
                 <task-name>FormulerDoleance</task-name>
-                <task-numero>2.2</task-numero>
+                <task-numero>2.3</task-numero>
                 <task-observation/>
                 <task-executant>ABS</task-executant>
                 <task-modality>COGN</task-modality>
@@ -93,12 +110,12 @@
                 <task-iteration>[1]</task-iteration>
                 <task-descriptioniteration>Tant que le Competiteur a une Doleance à formuler</task-descriptioniteration>
                 <point classkmad="tache.Point" idkmad="K24">
-                    <point-x>752</point-x>
+                    <point-x>827</point-x>
                     <point-y>327</point-y>
                 </point>
                 <task classkmad="tache.Tache" id-task-point="K39" idkmad="K40">
                     <task-name>DemanderModificationDossier</task-name>
-                    <task-numero>2.2.1</task-numero>
+                    <task-numero>2.3.1</task-numero>
                     <task-observation/>
                     <task-executant>INT</task-executant>
                     <task-modality>COGN</task-modality>
@@ -109,13 +126,13 @@
                     <task-effetsdebord>void</task-effetsdebord>
                     <task-iteration>[1]</task-iteration>
                     <point classkmad="tache.Point" idkmad="K39">
-                        <point-x>143</point-x>
+                        <point-x>208</point-x>
                         <point-y>478</point-y>
                     </point>
                 </task>
                 <task classkmad="tache.Tache" id-task-point="K95" idkmad="K96">
                     <task-name>SignalerProblemeLogement</task-name>
-                    <task-numero>2.2.2</task-numero>
+                    <task-numero>2.3.2</task-numero>
                     <task-observation/>
                     <task-executant>INT</task-executant>
                     <task-modality>COGN</task-modality>
@@ -126,13 +143,13 @@
                     <task-effetsdebord>void</task-effetsdebord>
                     <task-iteration>[1]</task-iteration>
                     <point classkmad="tache.Point" idkmad="K95">
-                        <point-x>401</point-x>
-                        <point-y>617</point-y>
+                        <point-x>424</point-x>
+                        <point-y>618</point-y>
                     </point>
                 </task>
                 <task classkmad="tache.Tache" id-task-point="K27" idkmad="K28">
                     <task-name>DemanderChangementLogement</task-name>
-                    <task-numero>2.2.3</task-numero>
+                    <task-numero>2.3.3</task-numero>
                     <task-observation/>
                     <task-executant>INT</task-executant>
                     <task-modality>COGN</task-modality>
@@ -143,14 +160,14 @@
                     <task-effetsdebord>void</task-effetsdebord>
                     <task-iteration>[1]</task-iteration>
                     <point classkmad="tache.Point" idkmad="K27">
-                        <point-x>620</point-x>
+                        <point-x>612</point-x>
                         <point-y>478</point-y>
                     </point>
                 </task>
             </task>
             <task classkmad="tache.Tache" id-task-point="K36" id-task-subtasks-list="K99 K102 " idkmad="K37">
                 <task-name>SignalerProblemeBadge</task-name>
-                <task-numero>2.3</task-numero>
+                <task-numero>2.4</task-numero>
                 <task-observation/>
                 <task-executant>INT</task-executant>
                 <task-modality>COGN</task-modality>
@@ -166,7 +183,7 @@
                 </point>
                 <task classkmad="tache.Tache" id-task-point="K98" idkmad="K99">
                     <task-name>DeclarerPerteBadge</task-name>
-                    <task-numero>2.3.1</task-numero>
+                    <task-numero>2.4.1</task-numero>
                     <task-observation/>
                     <task-executant>INT</task-executant>
                     <task-modality>COGN</task-modality>
@@ -183,7 +200,7 @@
                 </task>
                 <task classkmad="tache.Tache" id-task-point="K101" idkmad="K102">
                     <task-name>DeclarerDefaillanceBadge</task-name>
-                    <task-numero>2.3.2</task-numero>
+                    <task-numero>2.4.2</task-numero>
                     <task-observation/>
                     <task-executant>INT</task-executant>
                     <task-modality>COGN</task-modality>
